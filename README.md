@@ -144,8 +144,8 @@ A: Contact us through Telegram and complete the donation process for activation.
 
 ### Q: Which version should I choose?
 A: Choose based on your needs:
-- Mnemonic Recovery: For wallet recovery with seed phrases
 - 0x0 Recovery: For specific pattern searching (free)
+- Mnemonic Recovery: For wallet recovery with seed phrases
 - Random Recovery: For general private key discovery
 
 ### Q: Is the software safe to use?
