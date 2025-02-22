@@ -85,10 +85,10 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes, feat
 |---------|----------|-------------|--------|
 | 0x0 Recovery | Complete features | None | Free |
 | Mnemonics Trial | 12/24 words support | 1M attempts | Free |
-| Mnemonics Full | Unlimited attempts | None | $200 |
+| Mnemonics Full | Unlimited attempts | None | US$200 |
 | Random Trial | Basic features | 1M attempts | Free |
-| Random Full | Unlimited attempts | None | $200 |
-| Ethereum Database | 300 Millions Address | None | $100 |
+| Random Full | Unlimited attempts | None | US$200 |
+| Ethereum Database | 300 Millions Address | None | US$100 |
 
 ## 💎 Activation Process
 1. Join our Telegram group
