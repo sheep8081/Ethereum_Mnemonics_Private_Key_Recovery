@@ -91,7 +91,6 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes, feat
 | Ethereum Database | 300 Millions Address | None | $100 |
 
 ## 💎 Activation Process
-
 1. Join our Telegram group
 2. Contact project owner
 3. Make donation payment
@@ -99,24 +98,20 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes, feat
 5. Apply code to unlock full version
 
 ## 📊 Performance
-
 - Multi-threaded processing
 - Optimized memory usage
 - Progress saving
 - Automatic backups
 
 ## 🔒 Security
-
 - Offline operation
 - No key storage
 - Secure memory handling
 - Error protection
 
 ## 💬 Community & Support
-
 Join our Telegram Channel and Group:
 - Channel: https://t.me/brute_force_cpu
-- Group: https://t.me/brute_force_cpu_chat
 
 For activation and support:
 1. Join Telegram group
@@ -124,7 +119,6 @@ For activation and support:
 3. Follow activation process
 
 ## 💝 Donations
-
 Support development with donations:
 
 ### Ethereum (ETH)
@@ -138,7 +132,6 @@ TDaxNCkfxSWygq1AXzHN6NQiFAnkByU3bC
 ```
 
 ## ❓ FAQ
-
 ### Q: How do I upgrade from trial to full version?
 A: Contact us through Telegram and complete the donation process for activation.
 
