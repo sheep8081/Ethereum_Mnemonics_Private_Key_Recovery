@@ -110,8 +110,8 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes, feat
 - Error protection
 
 ## 💬 Community & Support
-Join our Telegram Channel and Group:
-- Channel: https://t.me/brute_force_cpu
+Join our Telegram Group:
+- Group: https://t.me/brute_force_cpu
 
 For activation and support:
 1. Join Telegram group
