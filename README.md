@@ -15,16 +15,16 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 
 ## 🎯 Available Tools
 
-### 1. Ethereum Private Key Recovery - 0x0 (Free Version) [Ethereum_CPU_Private_Key_0x0.exe]
-- Specialized in recovering private keys starting with 0x0
-- Searching space of all private keys (0000000000000000000000000000000000000000000000000000000000000000 - FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
+### 1. Ethereum Private Key Recovery - 0x1 (Free Version) [Ethereum_CPU_Private_Key_0x1.exe]
+- Specialized in recovering private keys starting with 0x1
+- Searching space of all private keys (0000000000000000000000000000000000000000000000000000000000000001 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
 - Unlimited attempts
 - Free to use
 - Multi-threaded processing
 
 ### 2. Ethereum Private Key Recovery - 0x* (Trial Version) [Ethereum_CPU_Private_Key_0x&.exe]
 - Targeted search algorithm private key space starting from 0x*
-- Specify the range of private keys from the starting point (e.g, 0000000000000000000000000000000000000000000000000000000001000000 - FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
+- Specify the range of private keys from the starting point (e.g, 0000000000000000000000000000000000000000000000000000000001000000 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
 - Optimized for 0x* patterns
 
 ### 3. Ethereum Mnemonics Phase Recovery (Trial Version)
@@ -44,10 +44,10 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 ### Installation
 
 1. Download the required files:
- - `Ethereum_CPU_Private_Key_0x0.exe`
+ - `Ethereum_CPU_Private_Key_0x1.exe`
  - `address.txt`
 
-2. Launch `Ethereum_CPU_Private_Key_0x0.exe` and ensure that the `address.txt` is in the same directory.
+2. Launch `Ethereum_CPU_Private_Key_0x1.exe` and ensure that the `address.txt` is in the same directory.
 ![415886357-642d8b64-bfed-47ef-9321-efe4ce1c72ea](https://github.com/user-attachments/assets/e226494f-4839-4bbe-a956-bdfb6321e4c2)
 
 3. Sample content of `address.txt` (for testing):
@@ -88,7 +88,7 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 
 | Version | Features | Limitations | Donations |
 |---------|----------|-------------|--------|
-| 0x0 Recovery | Complete features | None | Free |
+| 0x1 Recovery | Complete features | None | Free |
 | 0x* Recovery Trial | Basic features | 1M attempts | Free |
 | 0x* Recovery Full | Unlimited attempts | None | US$200 |
 | Mnemonics Trial | 12/24 words support | 1M attempts | Free |
@@ -116,16 +116,16 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 
 ## 🎯 可用工具
 
-### 1. 以太坊私钥恢复 - 0x0（免费版）[Ethereum_CPU_Private_Key_0x0.exe]
-- 专门用于恢复以0x0 开头的私钥
-- 所有私钥的搜索空间 (0000000000000000000000000000000000000000000000000000000000000000 - FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
+### 1. 以太坊私钥恢复 - 0x1（免费版）[Ethereum_CPU_Private_Key_0x1.exe]
+- 专门用于恢复以0x1 开头的私钥
+- 所有私钥的搜索空间 (0000000000000000000000000000000000000000000000000000000000000001 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
 - 无限尝试次数
 - 多线程处理
 - BIP39协议实现
 
 ### 2. 以太坊私钥恢复 - 0x*（试用版）[Ethereum_CPU_Private_Key_0x&.exe]
 - 专门用于恢复以0x*开头的私钥
-- 指定私钥的起点范围（例如，0000000000000000000000000000000000000000000000000000000000000000001000000 - FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
+- 指定私钥的起点范围（例如，0000000000000000000000000000000000000000000000000000000000000000001000000 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
 - 试用版限制100万次尝试
 - 多线程处理
 - BIP39协议实现
@@ -150,10 +150,10 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 ### 安装说明
 
 1. 下载所需文件：
- - `Ethereum_CPU_Private_Key_0x0.exe`
+ - `Ethereum_CPU_Private_Key_0x1.exe`
  - `address.txt`
 
-2. 运行`Ethereum_CPU_Private_Key_0x0.exe`，确保`address.txt`在同一目录下。
+2. 运行`Ethereum_CPU_Private_Key_0x1.exe`，确保`address.txt`在同一目录下。
 ![415886357-642d8b64-bfed-47ef-9321-efe4ce1c72ea](https://github.com/user-attachments/assets/c03fff4c-08f3-4939-b5e9-6adb75ae0e7d)
 
 3. `address.txt`示例内容（用于测试）：
@@ -176,7 +176,7 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 
 | 版本 | 功能 | 限制 | 捐赠额 |
 |---------|----------|-------------|--------|
-| 0x0恢复版 | 完整功能 | 无 | 免费 |
+| 0x1恢复版 | 完整功能 | 无 | 免费 |
 | 0x*恢复试用版 | 基础功能 | 100万次尝试 | 免费 |
 | 0x*恢复完整版 | 无限尝试 | 无 | US$200 |
 | 助记词试用版 | 12/24词支持 | 100万次尝试 | 免费 |
