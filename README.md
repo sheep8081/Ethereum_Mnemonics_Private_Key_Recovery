@@ -258,7 +258,7 @@ Required files in working directory:
 
 ## 💝 FAQ | 常见问题
 - Ensure the Chinese Edition is used by correctly setting the locale to Chinese (Simplified) in Windows OS. | 通过在 Windows 操作系统中将区域设置正确设置为中文（简体）来确保使用中文版本。
-  ![WeChat Screenshot_20250223150920](https://github.com/user-attachments/assets/2ada4950-61e3-4e3d-a4c4-3257ef2eec24)
+ ![image](https://github.com/user-attachments/assets/0092561f-2741-49bd-9946-175f4e6d315c)
 
 ## 🛡️ Disclaimer | 免责声明
 
