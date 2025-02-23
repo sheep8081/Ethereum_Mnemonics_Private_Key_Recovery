@@ -1,4 +1,4 @@
-# Ethereum Mnemonics Private Key Recovery | 以太坊助记词私钥恢复工具
+# Ethereum Mnemonics Private Key Recovery | 以太坊助记词私钥碰撞恢复工具
 
 <div align="center">
 
@@ -11,7 +11,7 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 
 </div>
 
-<h2 id="english">English Version</h2>
+<h2 id="english">Ethereum Mnemonics Private Key Recovery</h2>
 
 ## 🎯 Available Tools
 
@@ -116,7 +116,7 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 
 ---
 
-<h2 id="chinese">中文版本</h2>
+<h2 id="chinese">以太坊助记词私钥碰撞恢复工具</h2>
 
 ## 🎯 可用工具
 
