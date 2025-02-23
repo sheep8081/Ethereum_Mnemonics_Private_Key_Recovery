@@ -17,6 +17,7 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 
 ### 1. Ethereum Private Key Recovery - 0x0 (Free Version)
 - Specialized in recovering private keys starting with 0x0
+- Searching space of all private keys (0000000000000000000000000000000000000000000000000000000000000000 - FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
 - Unlimited attempts
 - Free to use
 - Multi-threaded processing
@@ -64,7 +65,13 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 
 ### 0x0 Private Key Recovery [Ethereum_CPU_Private_Key_0x0.exe]
 - Targeted search algorithm private key space starting from 0x0
+- Searching all space of the private keys (0000000000000000000000000000000000000000000000000000000000000000 - FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
 - Optimized for 0x0 patterns
+
+### 0x* Private Key Recovery [Ethereum_CPU_Private_Key_0x*.exe]
+- Targeted search algorithm private key space starting from 0x*
+- Specify the range of private keys from the starting point (e.g, 0000000000000000000000000000000000000000000000000000000001000000 - FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
+- Optimized for 0x* patterns
 
 ### Mnemonic Recovery
 - BIP39 implementation
@@ -89,7 +96,9 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 | Version | Features | Limitations | Donations |
 |---------|----------|-------------|--------|
 | 0x0 Recovery | Complete features | None | Free |
-| Mnemonics Trial | 12/24 words support | 1M attempts | Free |
+| 0x* Recovery Trial | Basic features | 1M attempts | Free |
+| 0x* Recovery Full | Unlimited attempts | None | US$200 |
+| Mnemonics Trial | 12/24 words support | None | Free |
 | Mnemonics Full | Unlimited attempts | None | US$200 |
 | Random Trial | Basic features | 1M attempts | Free |
 | Random Full | Unlimited attempts | None | US$200 |
@@ -101,12 +110,6 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 3. Make donation payment
 4. Receive activation code
 5. Apply code to unlock full version
-
-## 📊 Performance Features
-- Multi-threaded processing
-- Optimized memory usage
-- Progress saving
-- Automatic backups
 
 ## 🔒 Security Features
 - Offline operation
@@ -121,21 +124,32 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 ## 🎯 可用工具
 
 ### 1. 以太坊私钥恢复 - 0x0（免费版）
-- 专门用于恢复以0x0开头的私钥
+- 专门用于恢复以0x0 开头的私钥
+- 所有私钥的搜索空间 (0000000000000000000000000000000000000000000000000000000000000000 - FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
 - 无限尝试次数
-- 免费使用
 - 多线程处理
+- BIP39协议实现
+
+### 2. 以太坊私钥恢复 - 0x*（试用版）
+- 专门用于恢复以0x*开头的私钥
+- 指定私钥的起点范围（例如，0000000000000000000000000000000000000000000000000000000000000000001000000 - FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
+- 试用版限制100万次尝试
+- 多线程处理
+- BIP39协议实现
+- 高性能批处理
 
 ### 2. 以太坊助记词恢复（试用版）
 - 支持12位和24位随机生成
 - 试用版限制100万次尝试
 - 可通过激活获得完整版
 - 支持BIP39协议实现
+- 高性能批处理
 
 ### 3. 以太坊私钥恢复 - 随机（试用版）
 - 随机私钥生成和测试
 - 试用版限制100万次尝试
 - 可通过激活获得完整版
+- 支持BIP39协议实现
 - 高性能批处理
 
 ## 🚀 快速开始
@@ -171,6 +185,10 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 - 从0x0开始的目标搜索算法私钥空间
 - 针对0x0模式优化
 
+### 0x*私钥恢复 [Ethereum_CPU_Private_Key_0x0.exe]
+- 从0x0开始的目标搜索算法私钥空间
+- 针对0x0模式优化
+
 ### 助记词恢复
 - BIP39协议实现
 - 支持12/24词
@@ -194,6 +212,8 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 | 版本 | 功能 | 限制 | 捐赠额 |
 |---------|----------|-------------|--------|
 | 0x0恢复版 | 完整功能 | 无 | 免费 |
+| 0x*恢复试用版 | 基础功能 | 100万次尝试 | 免费 |
+| 0x*恢复完整版 | 无限尝试 | 无 | US$200 |
 | 助记词试用版 | 12/24词支持 | 100万次尝试 | 免费 |
 | 助记词完整版 | 无限尝试 | 无 | US$200 |
 | 随机试用版 | 基础功能 | 100万次尝试 | 免费 |
@@ -206,12 +226,6 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 3. 完成捐赠支付
 4. 获取激活码
 5. 使用激活码解锁完整版
-
-## 📊 性能特点
-- 多线程处理
-- 内存使用优化
-- 进度保存
-- 自动备份
 
 ## 🔒 安全特性
 - 离线运行
