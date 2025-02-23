@@ -156,8 +156,8 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 - **私钥：** 0000000000000000000000000000000000000000000000000000000000010000
 ![415886375-5e1dfb0d-ca93-4840-bffa-e695b12e0357](https://github.com/user-attachments/assets/5f7fb2e2-b818-4b33-9900-bc0b4b370084)
 
-4.检查“complete.txt”内容是否恢复成功（用于测试）：
-    ![415886418-b4811c30-fd1e-4cee-8128-3dc736db5068](https://github.com/user-attachments/assets/319b6ded-5ed0-46b1-8ff8-2f4ea9a0ba50)
+4. 检查“complete.txt”内容是否恢复成功（用于测试）：
+![415886418-b4811c30-fd1e-4cee-8128-3dc736db5068](https://github.com/user-attachments/assets/f23b8253-b761-42f9-9650-f2877f27660d)
 
 ## 📁 以太坊数据库（7天内更新）
 - 总地址数：3亿+
