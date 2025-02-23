@@ -77,6 +77,7 @@ Required files in working directory:
 
 4. Check the content for successful recovery of `complete.txt` (for testing):
 ![415886418-b4811c30-fd1e-4cee-8128-3dc736db5068](https://github.com/user-attachments/assets/80f94343-4306-4374-a381-2c66c83e794e)
+
 ## 📁 Ethereum Database (Updated within 7 days)
 - Total Addresses: 300 Million+
 - Update Frequency: Weekly
@@ -115,11 +116,12 @@ Required files in working directory:
 | Ethereum Database | 300 Million Address | None | US$100 |
 
 ## 💎 Activation Process
-1. Join our Telegram group
-2. Contact project owner
-3. Make donation payment
-4. Receive activation code
-5. Apply code to unlock full version
+1. Join our Telegram group - 🌍 International Group: https://t.me/brute_force_cpu
+2. Make donation payment
+3. Copy and Hardware ID to project owner - https://t.me/Sheep8081 or https://t.me/Sheep8082
+   ![image](https://github.com/user-attachments/assets/ee0d4287-8831-424c-8e9d-2a67cf193627)
+4. Receive activation code and apply code to unlock full version
+   ![image](https://github.com/user-attachments/assets/d65fb8c0-ca0b-458a-a25c-e1786521015a)
 
 ## 🔒 Security Features
 - Offline operation
@@ -232,11 +234,12 @@ Required files in working directory:
 | 以太坊数据库 | 3亿地址 | 无 | US$100 |
 
 ## 💎 激活流程
-1. 加入我们的Telegram群组
-2. 联系项目负责人
-3. 完成捐赠支付
-4. 获取激活码
-5. 使用激活码解锁完整版
+1. 加入我们的 Telegram 群组 - 🌍 国际群组：https://t.me/brute_force_cpu
+2. 捐款
+3. 将硬件 ID 复制给项目所有者 - https://t.me/Sheep8081 或 https://t.me/Sheep8082
+   ![image](https://github.com/user-attachments/assets/52427182-3033-4a30-be6a-7cf3d90d43d4)
+4. 接收激活码并应用代码解锁完整版
+   ![image](https://github.com/user-attachments/assets/9d78ef6c-97bd-4b82-87d7-afd783758da6)
 
 ## 🔒 安全特性
 - 离线运行
