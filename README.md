@@ -178,6 +178,20 @@ Required files in working directory:
 - `complete.txt` (成功输出文件 - 自动生成)
 - `debug.log` (日志文件 - 自动生成)
 
+2. 运行`Ethereum_CPU_Private_Key_0x1_v1.0.exe`，确保`address.txt`在同一目录下。
+![image](https://github.com/user-attachments/assets/b1861f95-211c-4fee-90f7-30792b12c522)
+
+3. `address.txt`示例内容（用于测试）：
+- **ETH地址：** 0x7E5F4552091A69125d5DfCb7b8C2659029395Bdf
+- **私钥：** 0000000000000000000000000000000000000000000000000000000000000001
+- **ETH地址：** 0x7f7F156a6c3FD9D3f2024DbD37F483608435Ad77
+- **私钥：** 0000000000000000000000000000000000000000000000000000000000010000
+![image](https://github.com/user-attachments/assets/b7f43d33-b710-4bbb-a3e5-fe8e912d4213)
+![image](https://github.com/user-attachments/assets/988aa344-181e-45dc-863a-b07f68948e00)
+
+4. 检查"complete.txt"内容是否恢复成功（用于测试）：
+![415886418-b4811c30-fd1e-4cee-8128-3dc736db5068](https://github.com/user-attachments/assets/f23b8253-b761-42f9-9650-f2877f27660d)
+
 #### Ethereum_CPU_Private_Key_0xN_v1.0.exe
 工作目录所需文件：
 - `Ethereum_CPU_Private_Key_0xN_v1.0.exe` (主程序)
@@ -187,14 +201,12 @@ Required files in working directory:
 - `license.dat` (激活数据文件)
 
 2. 运行`Ethereum_CPU_Private_Key_0x1_v1.0.exe`，确保`address.txt`在同一目录下。
-![415886357-642d8b64-bfed-47ef-9321-efe4ce1c72ea](https://github.com/user-attachments/assets/c03fff4c-08f3-4939-b5e9-6adb75ae0e7d)
 
 3. `address.txt`示例内容（用于测试）：
 - **ETH地址：** 0x7E5F4552091A69125d5DfCb7b8C2659029395Bdf
 - **私钥：** 0000000000000000000000000000000000000000000000000000000000000001
 - **ETH地址：** 0x7f7F156a6c3FD9D3f2024DbD37F483608435Ad77
 - **私钥：** 0000000000000000000000000000000000000000000000000000000000010000
-![415886375-5e1dfb0d-ca93-4840-bffa-e695b12e0357](https://github.com/user-attachments/assets/5f7fb2e2-b818-4b33-9900-bc0b4b370084)
 
 4. 检查"complete.txt"内容是否恢复成功（用于测试）：
 ![415886418-b4811c30-fd1e-4cee-8128-3dc736db5068](https://github.com/user-attachments/assets/f23b8253-b761-42f9-9650-f2877f27660d)
@@ -237,10 +249,8 @@ Required files in working directory:
 
 ## 💝 Donation Addresses | 捐赠地址
 
-**ETH:**
-0x7887b4f269cacdd9c78e474763b038e41b58473b
-**TRX:**
-TDaxNCkfxSWygq1AXzHN6NQiFAnkByU3bC
+- **ETH:** :0x7887b4f269cacdd9c78e474763b038e41b58473b
+- **TRX:** :TDaxNCkfxSWygq1AXzHN6NQiFAnkByU3bC
 
 ## 🛡️ Disclaimer | 免责声明
 
