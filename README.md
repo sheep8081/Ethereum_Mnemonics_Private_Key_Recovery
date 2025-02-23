@@ -47,6 +47,23 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
  - `Ethereum_CPU_Private_Key_0x1_v1.0.exe`
  - `address.txt`
 
+### File Architecture
+
+#### For Ethereum_CPU_Private_Key_0x1_v1.0.exe
+Required files in working directory:
+- `Ethereum_CPU_Private_Key_0x1_v1.0.exe` (Main program)
+- `address.txt` (Address list for searching)
+- `complete.txt` (Reserved success output file - auto-generated)
+- `debug.log` (Log file - auto-generated)
+
+#### For Ethereum_CPU_Private_Key_0xN_v1.0.exe
+Required files in working directory:
+- `Ethereum_CPU_Private_Key_0xN_v1.0.exe` (Main program)
+- `address.txt` (Address list for searching)
+- `complete.txt` (Reserved success output file - auto-generated)
+- `debug.log` (Log file - auto-generated)
+- `license.dat` (Activation data)
+
 2. Launch `Ethereum_CPU_Private_Key_0x1_v1.0.exe` and ensure that the `address.txt` is in the same directory.
 ![415886357-642d8b64-bfed-47ef-9321-efe4ce1c72ea](https://github.com/user-attachments/assets/e226494f-4839-4bbe-a956-bdfb6321e4c2)
 
@@ -59,7 +76,6 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 
 4. Check the content for successful recovery of `complete.txt` (for testing):
 ![415886418-b4811c30-fd1e-4cee-8128-3dc736db5068](https://github.com/user-attachments/assets/80f94343-4306-4374-a381-2c66c83e794e)
-
 ## 📁 Ethereum Database (Updated within 7 days)
 - Total Addresses: 300 Million+
 - Update Frequency: Weekly
@@ -131,14 +147,14 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 - BIP39协议实现
 - 高性能批处理
 
-### 2. 以太坊助记词恢复（试用版）
+### 3. 以太坊助记词恢复（试用版）
 - 支持12位和24位随机生成
 - 试用版限制100万次尝试
 - 可通过激活获得完整版
 - 支持BIP39协议实现
 - 高性能批处理
 
-### 3. 以太坊私钥恢复 - 随机（试用版）
+### 4. 以太坊私钥恢复 - 随机（试用版）
 - 随机私钥生成和测试
 - 试用版限制100万次尝试
 - 可通过激活获得完整版
@@ -153,6 +169,23 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
  - `Ethereum_CPU_Private_Key_0x1_v1.0.exe`
  - `address.txt`
 
+### 文件结构
+
+#### Ethereum_CPU_Private_Key_0x1_v1.0.exe
+工作目录所需文件：
+- `Ethereum_CPU_Private_Key_0x1_v1.0.exe` (主程序)
+- `address.txt` (待搜索地址列表)
+- `complete.txt` (成功输出文件 - 自动生成)
+- `debug.log` (日志文件 - 自动生成)
+
+#### Ethereum_CPU_Private_Key_0xN_v1.0.exe
+工作目录所需文件：
+- `Ethereum_CPU_Private_Key_0xN_v1.0.exe` (主程序)
+- `address.txt` (待搜索地址列表)
+- `complete.txt` (成功输出文件 - 自动生成)
+- `debug.log` (日志文件 - 自动生成)
+- `license.dat` (激活数据文件)
+
 2. 运行`Ethereum_CPU_Private_Key_0x1_v1.0.exe`，确保`address.txt`在同一目录下。
 ![415886357-642d8b64-bfed-47ef-9321-efe4ce1c72ea](https://github.com/user-attachments/assets/c03fff4c-08f3-4939-b5e9-6adb75ae0e7d)
 
@@ -163,7 +196,7 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 - **私钥：** 0000000000000000000000000000000000000000000000000000000000010000
 ![415886375-5e1dfb0d-ca93-4840-bffa-e695b12e0357](https://github.com/user-attachments/assets/5f7fb2e2-b818-4b33-9900-bc0b4b370084)
 
-4. 检查“complete.txt”内容是否恢复成功（用于测试）：
+4. 检查"complete.txt"内容是否恢复成功（用于测试）：
 ![415886418-b4811c30-fd1e-4cee-8128-3dc736db5068](https://github.com/user-attachments/assets/f23b8253-b761-42f9-9650-f2877f27660d)
 
 ## 📁 以太坊数据库（7天内更新）
@@ -205,14 +238,9 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 ## 💝 Donation Addresses | 捐赠地址
 
 **ETH:**
-```
 0x7887b4f269cacdd9c78e474763b038e41b58473b
-```
-
 **TRX:**
-```
 TDaxNCkfxSWygq1AXzHN6NQiFAnkByU3bC
-```
 
 ## 🛡️ Disclaimer | 免责声明
 
