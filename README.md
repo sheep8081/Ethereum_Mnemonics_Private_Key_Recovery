@@ -42,12 +42,17 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
  - `address.txt`
 
 2. Launch `Ethereum_CPU_Private_Key_0x0.exe` and ensure that the `address.txt` is in the same directory.
+![415886357-642d8b64-bfed-47ef-9321-efe4ce1c72ea](https://github.com/user-attachments/assets/e226494f-4839-4bbe-a956-bdfb6321e4c2)
 
 3. Sample content of `address.txt` (for testing):
 - **ETH Address:** 0x7E5F4552091A69125d5DfCb7b8C2659029395Bdf
 - **Private Key:** 0000000000000000000000000000000000000000000000000000000000000001
 - **ETH Address:** 0x7f7F156a6c3FD9D3f2024DbD37F483608435Ad77
 - **Private Key:** 0000000000000000000000000000000000000000000000000000000000010000
+![415886375-5e1dfb0d-ca93-4840-bffa-e695b12e0357](https://github.com/user-attachments/assets/2ce3da99-7ba2-4b6d-856e-f02417388543)
+
+4. Check the content for successful recovery of `complete.txt` (for testing):
+![415886418-b4811c30-fd1e-4cee-8128-3dc736db5068](https://github.com/user-attachments/assets/80f94343-4306-4374-a381-2c66c83e794e)
 
 ## 📁 Ethereum Database (Updated within 7 days)
 - Total Addresses: 300 Million+
@@ -142,12 +147,17 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
  - `address.txt`
 
 2. 运行`Ethereum_CPU_Private_Key_0x0.exe`，确保`address.txt`在同一目录下。
+![415886357-642d8b64-bfed-47ef-9321-efe4ce1c72ea](https://github.com/user-attachments/assets/c03fff4c-08f3-4939-b5e9-6adb75ae0e7d)
 
 3. `address.txt`示例内容（用于测试）：
 - **ETH地址：** 0x7E5F4552091A69125d5DfCb7b8C2659029395Bdf
 - **私钥：** 0000000000000000000000000000000000000000000000000000000000000001
 - **ETH地址：** 0x7f7F156a6c3FD9D3f2024DbD37F483608435Ad77
 - **私钥：** 0000000000000000000000000000000000000000000000000000000000010000
+![415886375-5e1dfb0d-ca93-4840-bffa-e695b12e0357](https://github.com/user-attachments/assets/5f7fb2e2-b818-4b33-9900-bc0b4b370084)
+
+4.检查“complete.txt”内容是否恢复成功（用于测试）：
+![415886418-b4811c30-fd1e-4cee-8128-3dc736db5068](https://github.com/user-attachments/assets/319b6ded-5ed0-46b1-8ff8-2f4ea9a0ba50)
 
 ## 📁 以太坊数据库（7天内更新）
 - 总地址数：3亿+
