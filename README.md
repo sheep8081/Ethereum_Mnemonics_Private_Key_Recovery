@@ -22,7 +22,7 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 - Free to use
 - Multi-threaded processing
 
-### 2. Ethereum Private Key Recovery - 0x* (Trial Version) [Ethereum_CPU_Private_Key_0x*.exe]
+### 2. Ethereum Private Key Recovery - 0x* (Trial Version) [Ethereum_CPU_Private_Key_0x&.exe]
 - Targeted search algorithm private key space starting from 0x*
 - Specify the range of private keys from the starting point (e.g, 0000000000000000000000000000000000000000000000000000000001000000 - FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
 - Optimized for 0x* patterns
@@ -123,7 +123,7 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 - 多线程处理
 - BIP39协议实现
 
-### 2. 以太坊私钥恢复 - 0x*（试用版）[Ethereum_CPU_Private_Key_0x*.exe]
+### 2. 以太坊私钥恢复 - 0x*（试用版）[Ethereum_CPU_Private_Key_0x&.exe]
 - 专门用于恢复以0x*开头的私钥
 - 指定私钥的起点范围（例如，0000000000000000000000000000000000000000000000000000000000000000001000000 - FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
 - 试用版限制100万次尝试
