@@ -15,20 +15,25 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 
 ## 🎯 Available Tools
 
-### 1. Ethereum Private Key Recovery - 0x0 (Free Version)
+### 1. Ethereum Private Key Recovery - 0x0 (Free Version) [Ethereum_CPU_Private_Key_0x0.exe]
 - Specialized in recovering private keys starting with 0x0
 - Searching space of all private keys (0000000000000000000000000000000000000000000000000000000000000000 - FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
 - Unlimited attempts
 - Free to use
 - Multi-threaded processing
 
-### 2. Ethereum Mnemonics Phase Recovery (Trial Version)
+### 2. Ethereum Private Key Recovery - 0x* (Trial Version) [Ethereum_CPU_Private_Key_0x*.exe]
+- Targeted search algorithm private key space starting from 0x*
+- Specify the range of private keys from the starting point (e.g, 0000000000000000000000000000000000000000000000000000000001000000 - FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
+- Optimized for 0x* patterns
+
+### 3. Ethereum Mnemonics Phase Recovery (Trial Version)
 - Supports both 12 & 24 words random generation
 - Trial limited to 1 million attempts
 - Full version available with activation
 - Features BIP39 implementation
 
-### 3. Ethereum Private Key Recovery - Random (Trial Version)
+### 4. Ethereum Private Key Recovery - Random (Trial Version)
 - Random private key generation and testing
 - Trial limited to 1 million attempts
 - Full version available with activation
@@ -61,18 +66,6 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 - Format: Optimized for high-speed lookups
 - Size: ~100GB compressed in txt format compatible with "Address.txt"
 
-## 🔧 Technical Features
-
-### 0x0 Private Key Recovery [Ethereum_CPU_Private_Key_0x0.exe]
-- Targeted search algorithm private key space starting from 0x0
-- Searching all space of the private keys (0000000000000000000000000000000000000000000000000000000000000000 - FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
-- Optimized for 0x0 patterns
-
-### 0x* Private Key Recovery [Ethereum_CPU_Private_Key_0x*.exe]
-- Targeted search algorithm private key space starting from 0x*
-- Specify the range of private keys from the starting point (e.g, 0000000000000000000000000000000000000000000000000000000001000000 - FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
-- Optimized for 0x* patterns
-
 ### Mnemonic Recovery
 - BIP39 implementation
 - 12/24 word support
@@ -98,7 +91,7 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 | 0x0 Recovery | Complete features | None | Free |
 | 0x* Recovery Trial | Basic features | 1M attempts | Free |
 | 0x* Recovery Full | Unlimited attempts | None | US$200 |
-| Mnemonics Trial | 12/24 words support | None | Free |
+| Mnemonics Trial | 12/24 words support | 1M attempts | Free |
 | Mnemonics Full | Unlimited attempts | None | US$200 |
 | Random Trial | Basic features | 1M attempts | Free |
 | Random Full | Unlimited attempts | None | US$200 |
@@ -123,14 +116,14 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 
 ## 🎯 可用工具
 
-### 1. 以太坊私钥恢复 - 0x0（免费版）
+### 1. 以太坊私钥恢复 - 0x0（免费版）[Ethereum_CPU_Private_Key_0x0.exe]
 - 专门用于恢复以0x0 开头的私钥
 - 所有私钥的搜索空间 (0000000000000000000000000000000000000000000000000000000000000000 - FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
 - 无限尝试次数
 - 多线程处理
 - BIP39协议实现
 
-### 2. 以太坊私钥恢复 - 0x*（试用版）
+### 2. 以太坊私钥恢复 - 0x*（试用版）[Ethereum_CPU_Private_Key_0x*.exe]
 - 专门用于恢复以0x*开头的私钥
 - 指定私钥的起点范围（例如，0000000000000000000000000000000000000000000000000000000000000000001000000 - FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
 - 试用版限制100万次尝试
@@ -178,34 +171,6 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 - 更新频率：每周
 - 格式：优化高速查找
 - 大小：压缩后约100GB，txt格式，兼容所有程序的"Address.txt"
-
-## 🔧 技术特点
-
-### 0x0私钥恢复 [Ethereum_CPU_Private_Key_0x0.exe]
-- 从0x0开始的目标搜索算法私钥空间
-- 针对0x0模式优化
-
-### 0x*私钥恢复 [Ethereum_CPU_Private_Key_0x0.exe]
-- 从0x0开始的目标搜索算法私钥空间
-- 针对0x0模式优化
-
-### 助记词恢复
-- BIP39协议实现
-- 支持12/24词
-- 批量操作
-- 派生路径选项
-- 进度跟踪
-- 多线程处理
-- 内存效率优化
-
-### 随机私钥恢复
-- BIP39协议实现
-- 基于私钥的优化搜索
-- 批量操作
-- 派生路径选项
-- 进度跟踪
-- 多线程处理
-- 内存效率优化
 
 ## ⚠️ 版本信息
 
