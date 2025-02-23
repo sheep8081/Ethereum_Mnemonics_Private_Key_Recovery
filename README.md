@@ -1,4 +1,4 @@
-# Ethereum Mnemonics Private Key Brute-force Recovery | 以太坊助记词碰撞工具 | 以太坊私钥碰撞恢复工具
+# Ethereum Mnemonics Private Key Brute-force Recovery | 以太坊助记词碰撞器工具 | 以太坊私钥碰撞器恢复工具
 
 <div align="center">
 
@@ -131,7 +131,7 @@ Required files in working directory:
 
 ---
 
-<h2 id="chinese">以太坊助记词碰撞工具 | 以太坊私钥碰撞恢复工具</h2>
+<h2 id="chinese">以太坊助记词碰撞器工具 | 以太坊私钥碰撞器恢复工具</h2>
 
 ## 🎯 可用工具
 
@@ -253,8 +253,8 @@ Required files in working directory:
 
 ## 💝 Donation Addresses | 捐赠地址
 
-- **ETH:** :0x7887b4f269cacdd9c78e474763b038e41b58473b
-- **TRX:** :TDaxNCkfxSWygq1AXzHN6NQiFAnkByU3bC
+- **ETH:** 0x7887b4f269cacdd9c78e474763b038e41b58473b
+- **TRX:** TDaxNCkfxSWygq1AXzHN6NQiFAnkByU3bC
 
 ## 💝 FAQ | 常见问题
 - Ensure the Chinese Edition is used by correctly setting the locale to Chinese (Simplified) in Windows OS. | 通过在 Windows 操作系统中将区域设置正确设置为中文（简体）来确保使用中文版本。
