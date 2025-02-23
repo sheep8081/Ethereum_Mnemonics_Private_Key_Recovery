@@ -44,7 +44,7 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 ### Installation
 
 1. Download the required files:
- - `Ethereum_CPU_Private_Key_0x1_v1.0.exe`
+ - `Ethereum_CPU_Private_Key_0x1_v1.0.exe` | `Ethereum_CPU_Private_Key_0xN_v1.0.exe`
  - `address.txt`
 
 ### File Architecture
@@ -169,7 +169,7 @@ Required files in working directory:
 ### 安装说明
 
 1. 下载所需文件：
- - `Ethereum_CPU_Private_Key_0x1_v1.0.exe`
+ - `Ethereum_CPU_Private_Key_0x1_v1.0.exe` | `Ethereum_CPU_Private_Key_0xN_v1.0.exe`
  - `address.txt`
 
 ### 文件结构
