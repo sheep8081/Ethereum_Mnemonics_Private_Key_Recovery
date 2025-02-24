@@ -346,14 +346,52 @@ This toolkit implements advanced cryptographic recovery methods for Ethereum wal
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="50%">
+
+## 💝 Support Our Development
+
+If you find our tools helpful in your wallet recovery journey, please consider supporting our ongoing development! Your donation helps us:
+
+- 🚀 Develop new features
+- 🛠️ Maintain and improve existing tools
+- 🎯 Enhance performance
+- 💡 Research new recovery methods
+- 🌐 Provide better support
+
+### Donation Addresses
+- **ETH:** `0x7887b4f269cacdd9c78e474763b038e41b58473b`
+- **TRX:** `TDaxNCkfxSWygq1AXzHN6NQiFAnkByU3bC`
+
+*Every contribution, big or small, helps us make these tools better for everyone!*
+
+</td>
+<td width="50%">
+
+## 💝 支持我们的开发
+
+如果我们的工具对您的钱包恢复有所帮助，请考虑支持我们的持续开发！您的捐赠将帮助我们：
+
+- 🚀 开发新功能
+- 🛠️ 维护和改进现有工具
+- 🎯 提升性能
+- 💡 研究新的恢复方法
+- 🌐 提供更好的支持
+
+### 捐赠地址
+- **ETH:** `0x7887b4f269cacdd9c78e474763b038e41b58473b`
+- **TRX:** `TDaxNCkfxSWygq1AXzHN6NQiFAnkByU3bC`
+
+*每一笔捐赠，无论大小，都能帮助我们为所有用户打造更好的工具！*
+
+</td>
+</tr>
+</table>
+
 ## 📱 Shared Community Links | 共享社区链接
 - 🌍 International Group | 国际群组: https://t.me/brute_force_cpu
 - 🇨🇳 Chinese Group | 中文群组: https://t.me/brute_force_cpu_chinese
-
-## 💝 Donation Addresses | 捐赠地址
-
-- **ETH:** 0x7887b4f269cacdd9c78e474763b038e41b58473b
-- **TRX:** TDaxNCkfxSWygq1AXzHN6NQiFAnkByU3bC
 
 ## 🛡️ Disclaimer | 免责声明
 
