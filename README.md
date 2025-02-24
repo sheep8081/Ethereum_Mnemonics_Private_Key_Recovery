@@ -6,16 +6,47 @@
 
 🌏 [English](#english) | [中文](#chinese)
 
-A comprehensive toolkit for Ethereum wallet recovery and research purposes.  
-一套完整的以太坊钱包恢复和研究工具包。
-
 </div>
+
+<table>
+<tr>
+<td width="50%">
+
+## What is this tool?
+A comprehensive toolkit designed to help recover lost Ethereum wallet access through various methods. Whether you've lost part of your private key or need to reconstruct your recovery phrase, our tools provide multiple approaches to assist in wallet recovery.
+
+### Key Features:
+- 🔑 Private key pattern matching
+- 📝 Mnemonic phrase reconstruction
+- 🔄 Multi-threaded processing
+- 🔒 100% offline operation
+- 💻 User-friendly interface
+
+Perfect for researchers, developers, and users who need to recover access to their Ethereum wallets.
+
+</td>
+<td width="50%">
+
+## 这是什么工具？
+这是一套专门用于帮助恢复以太坊钱包访问权限的综合工具包。无论您是遗失了部分私钥，还是需要重建助记词，我们的工具都提供多种方法来协助钱包恢复。
+
+### 主要特点：
+- 🔑 私钥模式匹配
+- 📝 助记词重建
+- 🔄 多线程处理
+- 🔒 完全离线运行
+- 💻 用户友好界面
+
+适合研究人员、开发者以及需要恢复以太坊钱包访问权限的用户使用。
+
+</td>
+</tr>
+</table>
+
 
 <h2 id="english">Ethereum Mnemonics Private Key Brute-force Recovery</h2>
 
 ## 🎯 Available Tools
-
-Our toolkit offers four powerful solutions for Ethereum wallet recovery:
 
 ### 1. Ethereum Private Key Recovery - 0x1 (Free Version) [Ethereum_CPU_Private_Key_0x1_v1.0.exe]
 - Specialized in recovering private keys starting with 0x1
@@ -136,8 +167,6 @@ Required files in working directory:
 <h2 id="chinese">以太坊助记词碰撞器工具 | 以太坊私钥碰撞器恢复工具</h2>
 
 ## 🎯 可用工具
-
-我们的工具包提供四种强大的以太坊钱包恢复解决方案：
 
 ### 1. 以太坊私钥碰撞器恢复 - 0x1（免费版）[Ethereum_CPU_Private_Key_0x1_v1.0.exe]
 - 专门用于恢复以0x1 开头的私钥
