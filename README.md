@@ -247,15 +247,6 @@ Required files in working directory:
 - 安全内存处理
 - 错误保护
 
-## 📱 Shared Community Links | 共享社区链接
-- 🌍 International Group | 国际群组: https://t.me/brute_force_cpu
-- 🇨🇳 Chinese Group | 中文群组: https://t.me/brute_force_cpu_chinese
-
-## 💝 Donation Addresses | 捐赠地址
-
-- **ETH:** 0x7887b4f269cacdd9c78e474763b038e41b58473b
-- **TRX:** TDaxNCkfxSWygq1AXzHN6NQiFAnkByU3bC
-
 ## 💝 FAQ | 常见问题
 - Ensure the Chinese Edition is used by correctly setting the locale to Chinese (Simplified) in Windows OS. | 通过在 Windows 操作系统中将区域设置正确设置为中文（简体）来确保使用中文版本。
  ![image](https://github.com/user-attachments/assets/0092561f-2741-49bd-9946-175f4e6d315c)
@@ -332,6 +323,15 @@ This toolkit implements advanced cryptographic recovery methods for Ethereum wal
 </td>
 </tr>
 </table>
+
+## 📱 Shared Community Links | 共享社区链接
+- 🌍 International Group | 国际群组: https://t.me/brute_force_cpu
+- 🇨🇳 Chinese Group | 中文群组: https://t.me/brute_force_cpu_chinese
+
+## 💝 Donation Addresses | 捐赠地址
+
+- **ETH:** 0x7887b4f269cacdd9c78e474763b038e41b58473b
+- **TRX:** TDaxNCkfxSWygq1AXzHN6NQiFAnkByU3bC
 
 ## 🛡️ Disclaimer | 免责声明
 
