@@ -27,13 +27,13 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 - Specify the range of private keys from the starting point (e.g, 0000000000000000000000000000000000000000000000000000000001000000 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
 - Optimized for 0xN patterns
 
-### 3. Ethereum Mnemonics Phase Recovery (Trial Version)
+### 3. Ethereum Mnemonics Phase Recovery (Trial Version) 
 - Supports both 12 & 24 words random generation
 - Trial limited to 1 million attempts
 - Full version available with activation
 - Features BIP39 implementation
 
-### 4. Ethereum Private Key Recovery - Random (Trial Version)
+### 4. Ethereum Private Key Recovery - Random (Trial Version) [Ethereum_CPU_Private_Key_Random_v1.0.exe]
 - Random private key generation and testing
 - Trial limited to 1 million attempts
 - Full version available with activation
@@ -44,7 +44,7 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 ### Installation
 
 1. Download the required files:
- - `Ethereum_CPU_Private_Key_0x1_v1.0.exe` | `Ethereum_CPU_Private_Key_0xN_v1.0.exe`
+ - `Ethereum_CPU_Private_Key_0x1_v1.0.exe` | `Ethereum_CPU_Private_Key_0xN_v1.0.exe` | `Ethereum_CPU_Private_Key_Random_v1.0.exe`
  - `address.txt`
 
 ### File Architecture
@@ -157,7 +157,7 @@ Required files in working directory:
 - 支持BIP39协议实现
 - 高性能批处理
 
-### 4. 以太坊私钥恢复 - 随机（试用版）
+### 4. 以太坊私钥恢复 - 随机（试用版）[Ethereum_CPU_Private_Key_Random_v1.0.exe]
 - 随机私钥生成和测试
 - 试用版限制100万次尝试
 - 可通过激活获得完整版
@@ -169,7 +169,7 @@ Required files in working directory:
 ### 安装说明
 
 1. 下载所需文件：
- - `Ethereum_CPU_Private_Key_0x1_v1.0.exe` | `Ethereum_CPU_Private_Key_0xN_v1.0.exe`
+ - `Ethereum_CPU_Private_Key_0x1_v1.0.exe` | `Ethereum_CPU_Private_Key_0xN_v1.0.exe` | `Ethereum_CPU_Private_Key_Random_v1.0.exe`
  - `address.txt`
 
 ### 文件结构
