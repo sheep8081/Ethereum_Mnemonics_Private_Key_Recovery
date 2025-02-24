@@ -56,9 +56,9 @@ Required files in working directory:
 - `complete.txt` (Reserved success output file - auto-generated)
 - `debug.log` (Log file - auto-generated)
 
-#### For Ethereum_CPU_Private_Key_0xN_v1.0.exe
+#### For Ethereum_CPU_Private_Key_0xN_v1.0.exe | Ethereum_CPU_Private_Key_Random_v1.0.exe
 Required files in working directory:
-- `Ethereum_CPU_Private_Key_0xN_v1.0.exe` (Main program)
+- `Ethereum_CPU_Private_Key_0xN_v1.0.exe` | `Ethereum_CPU_Private_Key_Random_v1.0.exe` (Main program)
 - `address.txt` (Address list for searching)
 - `complete.txt` (Reserved success output file - auto-generated)
 - `debug.log` (Log file - auto-generated)
@@ -195,9 +195,9 @@ Required files in working directory:
 4. 检查"complete.txt"内容是否恢复成功（用于测试）：
 ![415886418-b4811c30-fd1e-4cee-8128-3dc736db5068](https://github.com/user-attachments/assets/f23b8253-b761-42f9-9650-f2877f27660d)
 
-#### Ethereum_CPU_Private_Key_0xN_v1.0.exe
+#### Ethereum_CPU_Private_Key_0xN_v1.0.exe | Ethereum_CPU_Private_Key_Random_v1.0.exe
 工作目录所需文件：
-- `Ethereum_CPU_Private_Key_0xN_v1.0.exe` (主程序)
+- `Ethereum_CPU_Private_Key_0xN_v1.0.exe` | `Ethereum_CPU_Private_Key_Random_v1.0.exe` (主程序)
 - `address.txt` (待搜索地址列表)
 - `complete.txt` (成功输出文件 - 自动生成)
 - `debug.log` (日志文件 - 自动生成)
