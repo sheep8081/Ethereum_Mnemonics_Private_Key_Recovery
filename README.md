@@ -13,79 +13,6 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 
 <h2 id="english">Ethereum Mnemonics Private Key Brute-force Recovery</h2>
 
-## 📖 Technical Overview & Recovery Process | 技术概述与恢复流程
-
-<table>
-<tr>
-<td width="50%">
-
-### How It Works
-
-This toolkit implements advanced cryptographic recovery methods for Ethereum wallets through:
-
-1. **Private Key Recovery Process:**
-   - Utilizes sophisticated algorithms to generate and test private keys
-   - Implements parallel processing for enhanced performance
-   - Employs memory-efficient batch operations
-   - Uses optimized address derivation techniques
-
-2. **Why Ethereum Focus:**
-   - High value concentration in ETH addresses
-   - Single-signature wallet prevalence
-   - Cost-effective recovery process
-   - Large potential recovery value
-
-3. **Why Not TRX:**
-   - Widespread multi-signature implementation
-   - Low transaction fees encourage multi-sig adoption
-   - Most valuable wallets use multi-sig security
-   - Limited recovery value potential
-   - High implementation costs vs. potential returns
-
-4. **Technical Implementation:**
-   - BIP39 protocol compliance
-   - Keccak-256 hashing implementation
-   - Secp256k1 curve operations
-   - Efficient memory management
-   - Multi-threaded processing optimization
-
-</td>
-<td width="50%">
-
-### 工作原理
-
-本工具包通过以下方式实现以太坊钱包的高级加密恢复：
-
-1. **私钥恢复流程：**
-   - 使用高级算法生成和测试私钥
-   - 实现并行处理以提升性能
-   - 采用内存效率优化的批处理操作
-   - 使用优化的地址推导技术
-
-2. **为什么专注于以太坊：**
-   - 以太坊地址中高价值集中度
-   - 单签名钱包普遍使用
-   - 恢复过程成本效益高
-   - 潜在恢复价值大
-
-3. **为什么不支持波场（TRX）：**
-   - 多重签名实现广泛
-   - 低交易费用促使采用多重签名
-   - 大多数高价值钱包使用多重签名安全
-   - 有限的恢复价值潜力
-   - 实施成本高于潜在回报
-
-4. **技术实现：**
-   - 符合BIP39协议标准
-   - Keccak-256哈希实现
-   - Secp256k1曲线运算
-   - 高效内存管理
-   - 多线程处理优化
-
-</td>
-</tr>
-</table>
-
 ## 🎯 Available Tools
 
 ### 1. Ethereum Private Key Recovery - 0x1 (Free Version) [Ethereum_CPU_Private_Key_0x1_v1.0.exe]
@@ -332,6 +259,79 @@ Required files in working directory:
 ## 💝 FAQ | 常见问题
 - Ensure the Chinese Edition is used by correctly setting the locale to Chinese (Simplified) in Windows OS. | 通过在 Windows 操作系统中将区域设置正确设置为中文（简体）来确保使用中文版本。
  ![image](https://github.com/user-attachments/assets/0092561f-2741-49bd-9946-175f4e6d315c)
+
+## 📖 Technical Overview & Recovery Process | 技术概述与恢复流程
+
+<table>
+<tr>
+<td width="50%">
+
+### How It Works
+
+This toolkit implements advanced cryptographic recovery methods for Ethereum wallets through:
+
+1. **Private Key Recovery Process:**
+   - Utilizes sophisticated algorithms to generate and test private keys
+   - Implements parallel processing for enhanced performance
+   - Employs memory-efficient batch operations
+   - Uses optimized address derivation techniques
+
+2. **Why Ethereum Focus:**
+   - High value concentration in ETH addresses
+   - Single-signature wallet prevalence
+   - Cost-effective recovery process
+   - Large potential recovery value
+
+3. **Why Not TRX:**
+   - Widespread multi-signature implementation
+   - Low transaction fees encourage multi-sig adoption
+   - Most valuable wallets use multi-sig security
+   - Limited recovery value potential
+   - High implementation costs vs. potential returns
+
+4. **Technical Implementation:**
+   - BIP39 protocol compliance
+   - Keccak-256 hashing implementation
+   - Secp256k1 curve operations
+   - Efficient memory management
+   - Multi-threaded processing optimization
+
+</td>
+<td width="50%">
+
+### 工作原理
+
+本工具包通过以下方式实现以太坊钱包的高级加密恢复：
+
+1. **私钥恢复流程：**
+   - 使用高级算法生成和测试私钥
+   - 实现并行处理以提升性能
+   - 采用内存效率优化的批处理操作
+   - 使用优化的地址推导技术
+
+2. **为什么专注于以太坊：**
+   - 以太坊地址中高价值集中度
+   - 单签名钱包普遍使用
+   - 恢复过程成本效益高
+   - 潜在恢复价值大
+
+3. **为什么不支持波场（TRX）：**
+   - 多重签名实现广泛
+   - 低交易费用促使采用多重签名
+   - 大多数高价值钱包使用多重签名安全
+   - 有限的恢复价值潜力
+   - 实施成本高于潜在回报
+
+4. **技术实现：**
+   - 符合BIP39协议标准
+   - Keccak-256哈希实现
+   - Secp256k1曲线运算
+   - 高效内存管理
+   - 多线程处理优化
+
+</td>
+</tr>
+</table>
 
 ## 🛡️ Disclaimer | 免责声明
 
