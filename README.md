@@ -89,7 +89,7 @@ Required files in working directory:
 - `complete.txt` (Reserved success output file - auto-generated)
 - `debug.log` (Log file - auto-generated)
 
-#### For Ethereum_CPU_Private_Key_0xN_v1.0.exe | Ethereum_CPU_Private_Key_Random_v1.0.exe
+#### For Ethereum_CPU_Private_Key_0xN_v1.0.exe | Ethereum_CPU_Private_Key_Random_v1.0.exe | Ethereum_CPU_Mnemonics_v1.0.exe
 Required files in working directory:
 - `Ethereum_CPU_Private_Key_0xN_v1.0.exe` | `Ethereum_CPU_Private_Key_Random_v1.0.exe` (Main program)
 - `address.txt` (Address list for searching)
