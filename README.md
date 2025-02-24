@@ -60,7 +60,7 @@ Perfect for researchers, developers, and users who need to recover access to the
 - Specify the range of private keys from the starting point (e.g, 0000000000000000000000000000000000000000000000000000000001000000 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
 - Optimized for 0xN patterns
 
-### 3. Ethereum Mnemonics Phase Recovery (Trial Version) 
+### 3. Ethereum Mnemonics Phase Recovery (Trial Version) [Ethereum_CPU_Mnemonics_v1.0.exe]
 - Supports both 12 & 24 words random generation
 - Trial limited to 1 million attempts
 - Full version available with activation
@@ -77,7 +77,7 @@ Perfect for researchers, developers, and users who need to recover access to the
 ### Installation
 
 1. Download the required files:
- - `Ethereum_CPU_Private_Key_0x1_v1.0.exe` | `Ethereum_CPU_Private_Key_0xN_v1.0.exe` | `Ethereum_CPU_Private_Key_Random_v1.0.exe`
+ - `Ethereum_CPU_Private_Key_0x1_v1.0.exe` | `Ethereum_CPU_Private_Key_0xN_v1.0.exe` | `Ethereum_CPU_Private_Key_Random_v1.0.exe` | `Ethereum_CPU_Mnemonics_v1.0.exe` | `Ethereum_CPU_Mnemonics_v1.0.exe`
  - `address.txt`
 
 ### File Architecture
@@ -183,7 +183,7 @@ Required files in working directory:
 - BIP39协议实现
 - 高性能批处理
 
-### 3. 以太坊助记词碰撞器恢复（试用版）
+### 3. 以太坊助记词碰撞器恢复（试用版）[Ethereum_CPU_Mnemonics_v1.0.exe]
 - 支持12位和24位随机生成
 - 试用版限制100万次尝试
 - 可通过激活获得完整版
@@ -202,7 +202,7 @@ Required files in working directory:
 ### 安装说明
 
 1. 下载所需文件：
- - `Ethereum_CPU_Private_Key_0x1_v1.0.exe` | `Ethereum_CPU_Private_Key_0xN_v1.0.exe` | `Ethereum_CPU_Private_Key_Random_v1.0.exe`
+ - `Ethereum_CPU_Private_Key_0x1_v1.0.exe` | `Ethereum_CPU_Private_Key_0xN_v1.0.exe` | `Ethereum_CPU_Private_Key_Random_v1.0.exe` | `Ethereum_CPU_Mnemonics_v1.0.exe`
  - `address.txt`
 
 ### 文件结构
@@ -214,9 +214,9 @@ Required files in working directory:
 - `complete.txt` (成功输出文件 - 自动生成)
 - `debug.log` (日志文件 - 自动生成)
 
-#### Ethereum_CPU_Private_Key_0xN_v1.0.exe | Ethereum_CPU_Private_Key_Random_v1.0.exe
+#### Ethereum_CPU_Private_Key_0xN_v1.0.exe | Ethereum_CPU_Private_Key_Random_v1.0.exe | Ethereum_CPU_Mnemonics_v1.0.exe
 工作目录所需文件：
-- `Ethereum_CPU_Private_Key_0xN_v1.0.exe` | `Ethereum_CPU_Private_Key_Random_v1.0.exe` (主程序)
+- `Ethereum_CPU_Private_Key_0xN_v1.0.exe` | `Ethereum_CPU_Private_Key_Random_v1.0.exe`  | `Ethereum_CPU_Mnemonics_v1.0.exe` (主程序)
 - `address.txt` (待搜索地址列表)
 - `complete.txt` (成功输出文件 - 自动生成)
 - `debug.log` (日志文件 - 自动生成)
