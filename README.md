@@ -15,6 +15,8 @@ A comprehensive toolkit for Ethereum wallet recovery and research purposes.
 
 ## 🎯 Available Tools
 
+Our toolkit offers four powerful solutions for Ethereum wallet recovery:
+
 ### 1. Ethereum Private Key Recovery - 0x1 (Free Version) [Ethereum_CPU_Private_Key_0x1_v1.0.exe]
 - Specialized in recovering private keys starting with 0x1
 - Searching space of all private keys (0000000000000000000000000000000000000000000000000000000000000001 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
@@ -135,14 +137,16 @@ Required files in working directory:
 
 ## 🎯 可用工具
 
-### 1. 以太坊私钥恢复 - 0x1（免费版）[Ethereum_CPU_Private_Key_0x1_v1.0.exe]
+我们的工具包提供四种强大的以太坊钱包恢复解决方案：
+
+### 1. 以太坊私钥碰撞器恢复 - 0x1（免费版）[Ethereum_CPU_Private_Key_0x1_v1.0.exe]
 - 专门用于恢复以0x1 开头的私钥
 - 所有私钥的搜索空间 (0000000000000000000000000000000000000000000000000000000000000001 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
 - 无限尝试次数
 - 多线程处理
 - BIP39协议实现
 
-### 2. 以太坊私钥恢复 - 0xN（试用版）[Ethereum_CPU_Private_Key_0xN_v1.0.exe]
+### 2. 以太坊私钥碰撞器恢复 - 0xN（试用版）[Ethereum_CPU_Private_Key_0xN_v1.0.exe]
 - 专门用于恢复以0xN开头的私钥
 - 指定私钥的起点范围（例如，0000000000000000000000000000000000000000000000000000000000000000001000000 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
 - 试用版限制100万次尝试
@@ -150,14 +154,14 @@ Required files in working directory:
 - BIP39协议实现
 - 高性能批处理
 
-### 3. 以太坊助记词恢复（试用版）
+### 3. 以太坊助记词碰撞器恢复（试用版）
 - 支持12位和24位随机生成
 - 试用版限制100万次尝试
 - 可通过激活获得完整版
 - 支持BIP39协议实现
 - 高性能批处理
 
-### 4. 以太坊私钥恢复 - 随机（试用版）[Ethereum_CPU_Private_Key_Random_v1.0.exe]
+### 4. 以太坊私钥碰撞器恢复 - 随机（试用版）[Ethereum_CPU_Private_Key_Random_v1.0.exe]
 - 随机私钥生成和测试
 - 试用版限制100万次尝试
 - 可通过激活获得完整版
