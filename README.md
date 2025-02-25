@@ -89,18 +89,14 @@ Required files in working directory:
 - `license.dat` (Activation data)
 
 2. Launch `Ethereum_CPU_Private_Key_0x1_v1.0.exe` and ensure that the `address.txt` is in the same directory.
-![image](https://github.com/user-attachments/assets/4ae563ce-f537-48f2-a2ca-454e01ba7459)
 
 3. Sample content of `address.txt` (for testing):
 - **ETH Address:** 0x7E5F4552091A69125d5DfCb7b8C2659029395Bdf
 - **Private Key:** 0000000000000000000000000000000000000000000000000000000000000001
 - **ETH Address:** 0x7f7F156a6c3FD9D3f2024DbD37F483608435Ad77
 - **Private Key:** 0000000000000000000000000000000000000000000000000000000000010000
-![image](https://github.com/user-attachments/assets/b7f43d33-b710-4bbb-a3e5-fe8e912d4213)
-![image](https://github.com/user-attachments/assets/07e65e26-3a94-483d-a96c-9d032b0bcbdc)
 
 4. Check the content for successful recovery of `complete.txt` (for testing):
-![415886418-b4811c30-fd1e-4cee-8128-3dc736db5068](https://github.com/user-attachments/assets/80f94343-4306-4374-a381-2c66c83e794e)
 
 ## 📁 Ethereum Database (Updated within 7 days)
 - Total Addresses: 300 Million+
@@ -138,9 +134,7 @@ Required files in working directory:
 1. Join our Telegram group - 🌍 International Group: https://t.me/brute_force_cpu
 2. Make donation payment
 3. Copy and Hardware ID to project owner - https://t.me/Sheep8081 or https://t.me/Sheep8082
-   ![image](https://github.com/user-attachments/assets/ee0d4287-8831-424c-8e9d-2a67cf193627)
 4. Receive activation code and apply code to unlock full version
-   ![image](https://github.com/user-attachments/assets/d65fb8c0-ca0b-458a-a25c-e1786521015a)
 
 ## 🔒 Security Features
 - Offline operation
@@ -201,18 +195,14 @@ Required files in working directory:
 - `license.dat` (激活数据文件)
 
 2. 运行`Ethereum_Recovery_Tool_Ultimate_Edition_v1.0.exe`，确保`address.txt`在同一目录下。
-![image](https://github.com/user-attachments/assets/b1861f95-211c-4fee-90f7-30792b12c522)
 
 3. `address.txt`示例内容（用于测试）：
 - **ETH地址：** 0x7E5F4552091A69125d5DfCb7b8C2659029395Bdf
 - **私钥：** 0000000000000000000000000000000000000000000000000000000000000001
 - **ETH地址：** 0x7f7F156a6c3FD9D3f2024DbD37F483608435Ad77
 - **私钥：** 0000000000000000000000000000000000000000000000000000000000010000
-![image](https://github.com/user-attachments/assets/b7f43d33-b710-4bbb-a3e5-fe8e912d4213)
-![image](https://github.com/user-attachments/assets/988aa344-181e-45dc-863a-b07f68948e00)
 
 4. 检查"complete.txt"内容是否恢复成功（用于测试）：
-![415886418-b4811c30-fd1e-4cee-8128-3dc736db5068](https://github.com/user-attachments/assets/f23b8253-b761-42f9-9650-f2877f27660d)
 
 ## 📁 以太坊数据库（7天内更新）
 - 总地址数：3亿+
@@ -232,9 +222,7 @@ Required files in working directory:
 1. 加入我们的 Telegram 群组 - 🌍 国际群组：https://t.me/brute_force_cpu
 2. 捐款
 3. 将硬件 ID 复制给项目所有者 - https://t.me/Sheep8081 或 https://t.me/Sheep8082
-   ![image](https://github.com/user-attachments/assets/52427182-3033-4a30-be6a-7cf3d90d43d4)
 4. 接收激活码并应用代码解锁完整版
-   ![image](https://github.com/user-attachments/assets/9d78ef6c-97bd-4b82-87d7-afd783758da6)
 
 ## 🔒 安全特性
 - 离线运行
