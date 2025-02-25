@@ -46,27 +46,27 @@ Perfect for researchers, developers, and users who need to recover access to the
 
 <h2 id="english">Ethereum Mnemonics Private Key Brute-force Recovery</h2>
 
-## 🎯 Available Tools
+## 🎯 Available Methods
 
-### 1. Ethereum Private Key Recovery - 0x1 (Free Version) [Ethereum_CPU_Private_Key_0x1_v1.0.exe]
+### 1. Ethereum Private Key Recovery - 0x1
 - Specialized in recovering private keys starting with 0x1
 - Searching space of all private keys (0000000000000000000000000000000000000000000000000000000000000001 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
 - Unlimited attempts
 - Free to use
 - Multi-threaded processing
 
-### 2. Ethereum Private Key Recovery - 0xN (Trial Version) [Ethereum_CPU_Private_Key_0xN_v1.0.exe]
+### 2. Ethereum Private Key Recovery - 0xN
 - Targeted search algorithm private key space starting from 0xN
 - Specify the range of private keys from the starting point (e.g, 0000000000000000000000000000000000000000000000000000000001000000 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
 - Optimized for 0xN patterns
 
-### 3. Ethereum Mnemonics Phase Recovery (Trial Version) [Ethereum_CPU_Mnemonics_v1.0.exe]
+### 3. Ethereum Mnemonics Phase Recovery
 - Supports both 12 & 24 words random generation
 - Trial limited to 1 million attempts
 - Full version available with activation
 - Features BIP39 implementation
 
-### 4. Ethereum Private Key Recovery - Random (Trial Version) [Ethereum_CPU_Private_Key_Random_v1.0.exe]
+### 4. Ethereum Private Key Recovery - Random
 - Random private key generation and testing
 - Trial limited to 1 million attempts
 - Full version available with activation
@@ -77,21 +77,12 @@ Perfect for researchers, developers, and users who need to recover access to the
 ### Installation
 
 1. Download the required files:
- - `Ethereum_CPU_Private_Key_0x1_v1.0.exe` | `Ethereum_CPU_Private_Key_0xN_v1.0.exe` | `Ethereum_CPU_Private_Key_Random_v1.0.exe` | `Ethereum_CPU_Mnemonics_v1.0.exe` | `Ethereum_CPU_Mnemonics_v1.0.exe`
+ - `Ethereum_Recovery_Tool_Ultimate_Edition_v1.0.exe`
  - `address.txt`
 
 ### File Architecture
-
-#### For Ethereum_CPU_Private_Key_0x1_v1.0.exe
 Required files in working directory:
-- `Ethereum_CPU_Private_Key_0x1_v1.0.exe` (Main program)
-- `address.txt` (Address list for searching)
-- `complete.txt` (Reserved success output file - auto-generated)
-- `debug.log` (Log file - auto-generated)
-
-#### For Ethereum_CPU_Private_Key_0xN_v1.0.exe | Ethereum_CPU_Private_Key_Random_v1.0.exe | Ethereum_CPU_Mnemonics_v1.0.exe
-Required files in working directory:
-- `Ethereum_CPU_Private_Key_0xN_v1.0.exe` | `Ethereum_CPU_Private_Key_Random_v1.0.exe` (Main program)
+- `Ethereum_Recovery_Tool_Ultimate_Edition_v1.0.exe` (Main program)
 - `address.txt` (Address list for searching)
 - `complete.txt` (Reserved success output file - auto-generated)
 - `debug.log` (Log file - auto-generated)
@@ -139,13 +130,8 @@ Required files in working directory:
 
 | Version | Features | Limitations | Donations |
 |---------|----------|-------------|--------|
-| 0x1 Recovery | Complete features | None | Free |
-| 0xN Recovery Trial | Basic features | 1M attempts | Free |
-| 0xN Recovery Full | Unlimited attempts | None | US$200 |
-| Mnemonics Trial | 12/24 words support | 1M attempts | Free |
-| Mnemonics Full | Unlimited attempts | None | US$200 |
-| Random Trial | Basic features | 1M attempts | Free |
-| Random Full | Unlimited attempts | None | US$200 |
+| Trial | Basic features | 1M attempts | Free |
+| Full | Unlimited attempts | None | US$200 |
 | Ethereum Database | 300 Million Address | None | US$100 |
 
 ## 💎 Activation Process
@@ -166,16 +152,16 @@ Required files in working directory:
 
 <h2 id="chinese">以太坊助记词碰撞器工具 | 以太坊私钥碰撞器恢复工具</h2>
 
-## 🎯 可用工具
+## 🎯 可用版本
 
-### 1. 以太坊私钥碰撞器恢复 - 0x1（免费版）[Ethereum_CPU_Private_Key_0x1_v1.0.exe]
+### 1. 以太坊私钥碰撞器恢复 - 0x1
 - 专门用于恢复以0x1 开头的私钥
 - 所有私钥的搜索空间 (0000000000000000000000000000000000000000000000000000000000000001 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
 - 无限尝试次数
 - 多线程处理
 - BIP39协议实现
 
-### 2. 以太坊私钥碰撞器恢复 - 0xN（试用版）[Ethereum_CPU_Private_Key_0xN_v1.0.exe]
+### 2. 以太坊私钥碰撞器恢复 - 0xN
 - 专门用于恢复以0xN开头的私钥
 - 指定私钥的起点范围（例如，0000000000000000000000000000000000000000000000000000000000000000001000000 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
 - 试用版限制100万次尝试
@@ -183,14 +169,14 @@ Required files in working directory:
 - BIP39协议实现
 - 高性能批处理
 
-### 3. 以太坊助记词碰撞器恢复（试用版）[Ethereum_CPU_Mnemonics_v1.0.exe]
+### 3. 以太坊助记词碰撞器恢复
 - 支持12位和24位随机生成
 - 试用版限制100万次尝试
 - 可通过激活获得完整版
 - 支持BIP39协议实现
 - 高性能批处理
 
-### 4. 以太坊私钥碰撞器恢复 - 随机（试用版）[Ethereum_CPU_Private_Key_Random_v1.0.exe]
+### 4. 以太坊私钥碰撞器恢复 - 随机
 - 随机私钥生成和测试
 - 试用版限制100万次尝试
 - 可通过激活获得完整版
@@ -202,27 +188,19 @@ Required files in working directory:
 ### 安装说明
 
 1. 下载所需文件：
- - `Ethereum_CPU_Private_Key_0x1_v1.0.exe` | `Ethereum_CPU_Private_Key_0xN_v1.0.exe` | `Ethereum_CPU_Private_Key_Random_v1.0.exe` | `Ethereum_CPU_Mnemonics_v1.0.exe`
+ - `Ethereum_Recovery_Tool_Ultimate_Edition_v1.0.exe`
  - `address.txt`
 
 ### 文件结构
 
-#### Ethereum_CPU_Private_Key_0x1_v1.0.exe
 工作目录所需文件：
-- `Ethereum_CPU_Private_Key_0x1_v1.0.exe` (主程序)
-- `address.txt` (待搜索地址列表)
-- `complete.txt` (成功输出文件 - 自动生成)
-- `debug.log` (日志文件 - 自动生成)
-
-#### Ethereum_CPU_Private_Key_0xN_v1.0.exe | Ethereum_CPU_Private_Key_Random_v1.0.exe | Ethereum_CPU_Mnemonics_v1.0.exe
-工作目录所需文件：
-- `Ethereum_CPU_Private_Key_0xN_v1.0.exe` | `Ethereum_CPU_Private_Key_Random_v1.0.exe`  | `Ethereum_CPU_Mnemonics_v1.0.exe` (主程序)
+- `Ethereum_Recovery_Tool_Ultimate_Edition_v1.0.exe` (主程序)
 - `address.txt` (待搜索地址列表)
 - `complete.txt` (成功输出文件 - 自动生成)
 - `debug.log` (日志文件 - 自动生成)
 - `license.dat` (激活数据文件)
 
-2. 运行`Ethereum_CPU_Private_Key_0x1_v1.0.exe`，确保`address.txt`在同一目录下。
+2. 运行`Ethereum_Recovery_Tool_Ultimate_Edition_v1.0.exe`，确保`address.txt`在同一目录下。
 ![image](https://github.com/user-attachments/assets/b1861f95-211c-4fee-90f7-30792b12c522)
 
 3. `address.txt`示例内容（用于测试）：
@@ -246,13 +224,8 @@ Required files in working directory:
 
 | 版本 | 功能 | 限制 | 捐赠额 |
 |---------|----------|-------------|--------|
-| 0x1恢复版 | 完整功能 | 无 | 免费 |
-| 0xN恢复试用版 | 基础功能 | 100万次尝试 | 免费 |
-| 0xN恢复完整版 | 无限尝试 | 无 | US$200 |
-| 助记词试用版 | 12/24词支持 | 100万次尝试 | 免费 |
-| 助记词完整版 | 无限尝试 | 无 | US$200 |
-| 随机试用版 | 基础功能 | 100万次尝试 | 免费 |
-| 随机完整版 | 无限尝试 | 无 | US$200 |
+| 试用版 | 基础功能 | 100万次尝试 | 免费 |
+| 完整版 | 无限尝试 | 无 | US$200 |
 | 以太坊数据库 | 3亿地址 | 无 | US$100 |
 
 ## 💎 激活流程
