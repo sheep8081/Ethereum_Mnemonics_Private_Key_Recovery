@@ -46,7 +46,7 @@ Perfect for researchers, developers, and users who need to recover access to the
 
 <h2 id="english">Ethereum Mnemonics Private Key Brute-force Recovery</h2>
 
-## 🎯 Available Methods
+## 🎯 Recovery Methods
 
 ### 1. Ethereum Private Key Recovery - 0x1
 - Specialized in recovering private keys starting with 0x1
@@ -152,7 +152,7 @@ Required files in working directory:
 
 <h2 id="chinese">以太坊助记词碰撞器工具 | 以太坊私钥碰撞器恢复工具</h2>
 
-## 🎯 可用版本
+## 🎯 碰撞器恢复方法
 
 ### 1. 以太坊私钥碰撞器恢复 - 0x1
 - 专门用于恢复以0x1 开头的私钥
