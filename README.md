@@ -73,18 +73,18 @@ Perfect for researchers, developers, and users who need to recover access to the
 ### Installation
 
 1. Download the required files:
- - `Ethereum_Recovery_Tool_Ultimate_Edition_v1.0.exe`
+ - `Ethereum_Recovery_Tool_Ultimate_Edition_vX.X.exe`
  - `address.txt`
 
 ### File Architecture
 Required files in working directory:
-- `Ethereum_Recovery_Tool_Ultimate_Edition_v1.0.exe` (Main program)
+- `Ethereum_Recovery_Tool_Ultimate_Edition_vX.X.exe` (Main program)
 - `address.txt` (Address list for searching)
 - `complete.txt` (Reserved success output file - auto-generated)
 - `debug.log` (Log file - auto-generated)
 - `license.dat` (Activation data)
 
-2. Launch `Ethereum_CPU_Private_Key_0x1_v1.0.exe` and ensure that the `address.txt` is in the same directory.
+2. Launch `Ethereum_Recovery_Tool_Ultimate_Edition_vX.X.exe` and ensure that the `address.txt` is in the same directory.
 ![image](https://github.com/user-attachments/assets/e629280a-6537-425a-a6a7-dc920cb58db7)
 
 3. Sample content of `address.txt` recovery (for testing):
@@ -176,19 +176,19 @@ Required files in working directory:
 ### 安装说明
 
 1. 下载所需文件：
- - `Ethereum_Recovery_Tool_Ultimate_Edition_v1.0.exe`
+ - `Ethereum_Recovery_Tool_Ultimate_Edition_vX.X.exe`
  - `address.txt`
 
 ### 文件结构
 
 工作目录所需文件：
-- `Ethereum_Recovery_Tool_Ultimate_Edition_v1.0.exe` (主程序)
+- `Ethereum_Recovery_Tool_Ultimate_Edition_vX.X.exe` (主程序)
 - `address.txt` (待搜索地址列表)
 - `complete.txt` (成功输出文件 - 自动生成)
 - `debug.log` (日志文件 - 自动生成)
 - `license.dat` (激活数据文件)
 
-2. 运行`Ethereum_Recovery_Tool_Ultimate_Edition_v1.0.exe`，确保`address.txt`在同一目录下。
+2. 运行`Ethereum_Recovery_Tool_Ultimate_Edition_vX.X.exe`，确保`address.txt`在同一目录下。
 ![image](https://github.com/user-attachments/assets/e5ccdba8-0872-4d4c-a67a-5cae89469978)
 
 3. `address.txt`示例内容（用于测试）：
