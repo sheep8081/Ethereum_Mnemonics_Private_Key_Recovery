@@ -51,8 +51,6 @@ Perfect for researchers, developers, and users who need to recover access to the
 ### 1. Ethereum Private Key Recovery - 0x1
 - Specialized in recovering private keys starting with 0x1
 - Searching space of all private keys (0000000000000000000000000000000000000000000000000000000000000001 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
-- Unlimited attempts
-- Free to use
 - Multi-threaded processing
 
 ### 2. Ethereum Private Key Recovery - 0xN
@@ -62,13 +60,11 @@ Perfect for researchers, developers, and users who need to recover access to the
 
 ### 3. Ethereum Mnemonics Phase Recovery
 - Supports both 12 & 24 words random generation
-- Trial limited to 1 million attempts
 - Full version available with activation
-- Features BIP39 implementation
+- Features BIP39 BIP 44 implementation
 
 ### 4. Ethereum Private Key Recovery - Random
 - Random private key generation and testing
-- Trial limited to 1 million attempts
 - Full version available with activation
 - High-performance batch processing
 
@@ -156,30 +152,23 @@ Required files in working directory:
 ### 1. 以太坊私钥碰撞器恢复 - 0x1
 - 专门用于恢复以0x1 开头的私钥
 - 所有私钥的搜索空间 (0000000000000000000000000000000000000000000000000000000000000001 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
-- 无限尝试次数
 - 多线程处理
-- BIP39协议实现
+- 高性能批处理
 
 ### 2. 以太坊私钥碰撞器恢复 - 0xN
 - 专门用于恢复以0xN开头的私钥
 - 指定私钥的起点范围（例如，0000000000000000000000000000000000000000000000000000000000000000001000000 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
-- 试用版限制100万次尝试
 - 多线程处理
-- BIP39协议实现
 - 高性能批处理
 
 ### 3. 以太坊助记词碰撞器恢复
 - 支持12位和24位随机生成
-- 试用版限制100万次尝试
-- 可通过激活获得完整版
-- 支持BIP39协议实现
+- BIP39 BIP 44协议
 - 高性能批处理
 
 ### 4. 以太坊私钥碰撞器恢复 - 随机
 - 随机私钥生成和测试
-- 试用版限制100万次尝试
-- 可通过激活获得完整版
-- 支持BIP39协议实现
+- BIP39 BIP 44协议
 - 高性能批处理
 
 ## 🚀 快速开始
