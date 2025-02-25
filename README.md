@@ -132,7 +132,7 @@ Required files in working directory:
 ## 💎 Activation Process
 1. Join our Telegram group - 🌍 International Group: https://t.me/brute_force_cpu
 2. Make donation payment
-3. Copy and Hardware ID to project owner - https://t.me/Sheep8081 or https://t.me/Sheep8082
+3. Copy and Hardware ID to project owner - https://t.me/Sheep8081
    ![image](https://github.com/user-attachments/assets/2b0a0a75-a161-4460-893a-428046de089f)
 5. Receive activation code and apply code to unlock full version
    ![image](https://github.com/user-attachments/assets/4fb55cfb-e5fa-4fde-84e6-6c434fa5fc91)
@@ -218,7 +218,7 @@ Required files in working directory:
 ## 💎 激活流程
 1. 加入我们的 Telegram 群组 - 🇨🇳 Chinese Group | 中文群组: https://t.me/brute_force_cpu_chinese
 2. 捐款
-3. 将硬件 ID 复制给项目所有者 - https://t.me/Sheep8081 或 https://t.me/Sheep8082
+3. 将硬件 ID 复制给项目所有者 - https://t.me/Sheep8081
    ![image](https://github.com/user-attachments/assets/87b9075b-1bd9-48a3-993a-e1e0ebf1a0c1)
 5. 接收激活码并应用代码解锁完整版
    ![image](https://github.com/user-attachments/assets/b0a364a8-7af8-4279-98b1-2f6d23e4b56a)
