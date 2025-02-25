@@ -216,7 +216,7 @@ Required files in working directory:
 | 以太坊数据库 | 3亿地址 | 无 | US$100 |
 
 ## 💎 激活流程
-1. 加入我们的 Telegram 群组 - 🌍 国际群组：https://t.me/brute_force_cpu
+1. 加入我们的 Telegram 群组 - 🇨🇳 Chinese Group | 中文群组: https://t.me/brute_force_cpu_chinese
 2. 捐款
 3. 将硬件 ID 复制给项目所有者 - https://t.me/Sheep8081 或 https://t.me/Sheep8082
    ![image](https://github.com/user-attachments/assets/87b9075b-1bd9-48a3-993a-e1e0ebf1a0c1)
