@@ -2,8 +2,6 @@
 
 <div align="center">
 
-![GitHub last commit](https://img.shields.io/github/last-commit/sheep8081/Ethereum_Mnemonics_Private_Key_Recovery)
-
 🌏 [English](#english) | [中文](#chinese)
 
 </div>
