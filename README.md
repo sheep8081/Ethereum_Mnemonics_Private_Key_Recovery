@@ -1,4 +1,4 @@
-# Ethereum Address Verification & Recovery Tool | 以太坊地址验证与恢复工具
+Ethereum Mnemonics Private Key Brute-force Recovery | 以太坊助记词碰撞器工具 | 以太坊私钥碰撞器恢复工具
 
 <div align="center">
 
