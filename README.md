@@ -164,7 +164,7 @@ The trial version allows evaluation of performance on your specific hardware bef
 
 ---
 
-<h2 id="chinese">以太坊地址验证与恢复工具</h2>
+<h2 id="chinese">以太坊助记词碰撞器工具 | 以太坊私钥碰撞器恢复工具</h2>
 
 ## ⚠️ 重要使用信息
 
