@@ -1,5 +1,5 @@
-Ethereum Mnemonics Private Key Brute-force Recovery | 以太坊助记词碰撞器工具 | 以太坊私钥碰撞器恢复工具
-
+**Ethereum Mnemonics Private Key Brute-force Recovery | 以太坊助记词碰撞器工具 | 以太坊私钥碰撞器恢复工具
+**
 <div align="center">
 
 [![Security Status](https://img.shields.io/badge/Security-Offline%20Operation-brightgreen)](https://github.com/sheep8081/Ethereum_Recovery_Tool#security-features)
