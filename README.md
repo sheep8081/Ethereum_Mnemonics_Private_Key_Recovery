@@ -2,8 +2,8 @@
 
 <div align="center">
 
-[![Security Status](https://img.shields.io/badge/Security-Offline%20Operation-brightgreen)](https://github.com/sheep8081/Ethereum_Recovery_Tool#security-features)
-[![Last Update](https://img.shields.io/badge/Last%20Update-March%202025-orange)](https://github.com/sheep8081/Ethereum_Recovery_Tool/commits/main)
+[![Security Status](https://img.shields.io/badge/Security-Offline%20Operation-brightgreen)](https://github.com/sheep8081/Ethereum_Mnemonics_Private_Key_Recovery)
+[![Last Update](https://img.shields.io/badge/Last%20Update-March%202025-orange)](https://github.com/sheep8081/Ethereum_Mnemonics_Private_Key_Recovery/commits/main)
 
 🌏 [English](#english) | [中文](#chinese)
 
