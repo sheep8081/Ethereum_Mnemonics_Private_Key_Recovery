@@ -1,6 +1,9 @@
-# Ethereum Mnemonics Private Key Brute-force Recovery | 以太坊助记词碰撞器工具 | 以太坊私钥碰撞器恢复工具
+# Ethereum Address Verification & Recovery Tool | 以太坊地址验证与恢复工具
 
 <div align="center">
+
+[![Security Status](https://img.shields.io/badge/Security-Offline%20Operation-brightgreen)](https://github.com/sheep8081/Ethereum_Recovery_Tool#security-features)
+[![Last Update](https://img.shields.io/badge/Last%20Update-March%202025-orange)](https://github.com/sheep8081/Ethereum_Recovery_Tool/commits/main)
 
 🌏 [English](#english) | [中文](#chinese)
 
@@ -11,224 +14,262 @@
 <td width="50%">
 
 ## What is this tool?
-A comprehensive toolkit designed to help recover lost Ethereum wallet access through various methods. Whether you've lost part of your private key or need to reconstruct your recovery phrase, our tools provide multiple approaches to assist in wallet recovery.
+A high-performance toolkit that systematically tests cryptographic combinations to recover access to Ethereum wallets. Simply add your target addresses to a text file, and the tool will verify millions of possibilities offline using advanced multi-threaded processing.
 
 ### Key Features:
-- 🔑 Private key pattern matching
-- 📝 Mnemonic phrase reconstruction
-- 🔄 Multi-threaded processing
-- 🔒 100% offline operation
-- 💻 User-friendly interface
+- 🔑 Systematic key space verification
+- 📝 Advanced mnemonic phrase testing
+- 🚄 High-performance multi-threaded processing
+- 🔒 100% offline operation - no network connectivity
+- 💻 Simple text file input - just add your addresses
 
-Perfect for researchers, developers, and users who need to recover access to their Ethereum wallets.
+Perfect for researchers, developers, and users who need to verify or recover access to their Ethereum wallets.
 
 </td>
 <td width="50%">
 
 ## 这是什么工具？
-这是一套专门用于帮助恢复以太坊钱包访问权限的综合工具包。无论您是遗失了部分私钥，还是需要重建助记词，我们的工具都提供多种方法来协助钱包恢复。
+这是一款高性能工具包，通过系统测试加密组合来恢复以太坊钱包的访问权限。只需将目标地址添加到文本文件中，该工具就会使用先进的多线程处理离线验证数百万种可能性。
 
 ### 主要特点：
-- 🔑 私钥模式匹配
-- 📝 助记词重建
-- 🔄 多线程处理
-- 🔒 完全离线运行
-- 💻 用户友好界面
+- 🔑 系统密钥空间验证
+- 📝 高级助记词测试
+- 🚄 高性能多线程处理
+- 🔒 完全离线运行 - 无网络连接
+- 💻 简单文本文件输入 - 仅添加您的地址
 
-适合研究人员、开发者以及需要恢复以太坊钱包访问权限的用户使用。
+适合研究人员、开发者以及需要验证或恢复以太坊钱包访问权限的用户。
 
 </td>
 </tr>
 </table>
 
+<h2 id="english">Ethereum Address Verification & Recovery Tool</h2>
 
-<h2 id="english">Ethereum Mnemonics Private Key Brute-force Recovery</h2>
+## ⚠️ Important Usage Information
+
+This is a computational verification tool that tests large numbers of cryptographic combinations against target Ethereum addresses. It works by:
+
+- Systematically generating key combinations in specified ranges
+- Converting each key to its corresponding Ethereum address
+- Comparing generated addresses against your target addresses
+- Recording any matches found during processing
+
+**This tool requires only your Ethereum address(es)** - no need to input private keys or recovery phrases. Simply create a text file with the addresses you want to verify.
 
 ## 🎯 Recovery Methods
 
-### 1. Ethereum Private Key Recovery - 0x1
-- Specialized in recovering private keys starting with 0x1
-- Searching space of all private keys (0000000000000000000000000000000000000000000000000000000000000001 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
-- Multi-threaded processing
+### 1. Structured Private Key Space Search - 0x1
+- Systematically tests private keys starting with 0x1
+- Coverage: `0000000000000000000000000000000000000000000000000000000000000001 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF`
+- Optimized multi-threaded processing for maximum performance
 
-### 2. Ethereum Private Key Recovery - 0xN
-- Targeted search algorithm private key space starting from 0xN
-- Specify the range of private keys from the starting point (e.g, 0000000000000000000000000000000000000000000000000000000001000000 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
-- Optimized for 0xN patterns
+### 2. Configurable Range Search - 0xN
+- Customizable starting point for key space verification
+- Define your own range (e.g., `0000000000000000000000000000000000000000000000000000000001000000 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF`)
+- Specialized for specific key patterns
 
-### 3. Ethereum Mnemonics Phase Recovery
-- Supports both 12 & 24 words random generation
-- Full version available with activation
-- Features BIP39 BIP 44 implementation
+### 3. BIP39 Mnemonic Verification
+- Tests 12-word and 24-word mnemonic combinations
+- Implements full BIP39/BIP44 standards
+- Generates derived addresses for comprehensive verification
 
-### 4. Ethereum Private Key Recovery - Random
-- Random private key generation and testing
-- Full version available with activation
+### 4. Random Distribution Verification
+- Statistical sampling across the entire key space
 - High-performance batch processing
+- Optimized for maximum coverage of probable combinations
 
 ## 🚀 Quick Start
 
 ### Installation
 
 1. Download the required files:
- - `Ethereum_Recovery_Tool_Ultimate_Edition_vX.X.exe`
- - `address.txt`
+   - `Ethereum_Recovery_Tool_Ultimate_Edition_vX.X.exe`
+   - Create an `address.txt` file with your target addresses
 
 ### File Architecture
 Required files in working directory:
 - `Ethereum_Recovery_Tool_Ultimate_Edition_vX.X.exe` (Main program)
-- `address.txt` (Address list for searching)
-- `complete.txt` (Reserved success output file - auto-generated)
-- `debug.log` (Log file - auto-generated)
-- `license.dat` (Activation data)
+- `address.txt` (Target Ethereum addresses, one per line)
+- `complete.txt` (Auto-generated when matches are found)
+- `debug.log` (Auto-generated performance logging)
+- `license.dat` (Full version activation file)
 
-2. Launch `Ethereum_Recovery_Tool_Ultimate_Edition_vX.X.exe` and ensure that the `address.txt` is in the same directory.
+2. Launch the application and ensure `address.txt` is in the same directory.
 ![image](https://github.com/user-attachments/assets/e629280a-6537-425a-a6a7-dc920cb58db7)
 
-3. Sample content of `address.txt` recovery (for testing):
-- **ETH Address:** 0x7E5F4552091A69125d5DfCb7b8C2659029395Bdf
-- **Private Key:** 0000000000000000000000000000000000000000000000000000000000000001
-- **ETH Address:** 0x7f7F156a6c3FD9D3f2024DbD37F483608435Ad77
-- **Private Key:** 0000000000000000000000000000000000000000000000000000000000010000
+3. Sample `address.txt` for testing:
+```
+0x7E5F4552091A69125d5DfCb7b8C2659029395Bdf
+0x7f7F156a6c3FD9D3f2024DbD37F483608435Ad77
+```
 ![image](https://github.com/user-attachments/assets/edca54eb-ed88-4004-b3bf-27da39708346)
 
-4. Check the content for successful recovery of `complete.txt` (for testing):
+4. Successful verification results appear in `complete.txt`:
 ![image](https://github.com/user-attachments/assets/2c11a4fb-02b1-45af-b4f9-25c48e6bedac)
 
-## 📁 Ethereum Database (Updated within 7 days)
-- Total Addresses: 300 Million+
-- Update Frequency: Weekly
-- Format: Optimized for high-speed lookups
-- Size: ~100GB compressed in txt format compatible with "Address.txt"
+## 💻 Technical Implementation
 
-### Mnemonic Recovery
-- BIP39 implementation
-- 12/24 word support
-- Batch operations
-- Derivation path options
-- Progress tracking
-- Multi-threaded processing
-- Memory-efficient design
+### Verification Process
+- **Key Generation**: Systematic or stochastic creation of candidate private keys
+- **Address Derivation**: Standard Ethereum address generation from each candidate key
+- **Optimized Matching**: High-speed comparison against target address list
+- **Multi-threaded Design**: Parallel processing for maximum hardware utilization
 
-### Random Private Key Recovery
-- BIP39 implementation
-- Private Key based optimized searching
-- Batch operations
-- Derivation path options
-- Progress tracking
-- Multi-threaded processing
-- Memory-efficient design
+### Performance Optimizations
+- Memory-efficient operations for extended runtime capability
+- Batch processing to minimize computational overhead
+- Checkpoint system for resuming interrupted operations
+- Progress tracking with estimated completion statistics
+
+## 📁 Ethereum Database (Updated Weekly)
+- **Size**: 300+ million Ethereum addresses
+- **Format**: Optimized for high-speed lookup operations
+- **Update Frequency**: Weekly with new addresses
+- **Storage**: ~100GB compressed, compatible with the tool's address format
 
 ## ⚠️ Version Information
 
-| Version | Features | Limitations | Donations |
+| Version | Features | Limitations | Contribution |
 |---------|----------|-------------|--------|
-| Trial | Basic features | 1M attempts | Free |
-| Full | Unlimited attempts | None | US$200 |
-| Ethereum Database | 300 Million Address | None | US$100 |
+| Trial | Basic verification | 1M attempts | Free |
+| Full | Unlimited verification | None | US$200 |
+| Ethereum Database | 300M+ addresses | None | US$100 |
 
 ## 💎 Activation Process
-1. Join our Telegram group - 🌍 International Group: https://t.me/brute_force_cpu
-2. Make donation payment
-3. Copy and Hardware ID to project owner - https://t.me/Sheep8081
+1. Join our Telegram community: [International Group](https://t.me/brute_force_cpu)
+2. Make contribution payment
+3. Send your Hardware ID to the project maintainer: [@Sheep8081](https://t.me/Sheep8081)
    ![image](https://github.com/user-attachments/assets/2b0a0a75-a161-4460-893a-428046de089f)
-5. Receive activation code and apply code to unlock full version
+4. Receive your activation code to unlock the full version capabilities
    ![image](https://github.com/user-attachments/assets/4fb55cfb-e5fa-4fde-84e6-6c434fa5fc91)
 
 ## 🔒 Security Features
-- Offline operation
-- No key storage
-- Secure memory handling
-- Error protection
+- **Completely Offline**: Never connects to the internet during operation
+- **Local Processing**: All computations performed on your local machine
+- **No Data Transmission**: No information is sent outside your computer
+- **Memory Protection**: Secure memory handling with automatic clearing
+- **Error Recovery**: Automatic safeguards against system crashes
+
+## 📊 Performance Expectations
+
+The effectiveness of this tool depends on:
+
+1. **Hardware Resources**: More CPU cores and faster processors yield better performance
+2. **Search Space Size**: The specific ranges being verified affect completion time
+3. **Target Count**: Number of addresses being checked against
+4. **Memory Allocation**: Available RAM for batch processing operations
+
+The trial version allows evaluation of performance on your specific hardware before upgrading.
 
 ---
 
-<h2 id="chinese">以太坊助记词碰撞器工具 | 以太坊私钥碰撞器恢复工具</h2>
+<h2 id="chinese">以太坊地址验证与恢复工具</h2>
 
-## 🎯 碰撞器恢复方法
+## ⚠️ 重要使用信息
 
-### 1. 以太坊私钥碰撞器恢复 - 0x1
-- 专门用于恢复以0x1 开头的私钥
-- 所有私钥的搜索空间 (0000000000000000000000000000000000000000000000000000000000000001 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
-- 多线程处理
+这是一款计算验证工具，可针对目标以太坊地址测试大量加密组合。它的工作原理是：
+
+- 在指定范围内系统生成密钥组合
+- 将每个密钥转换为其对应的以太坊地址
+- 将生成的地址与您的目标地址进行比较
+- 记录处理过程中发现的任何匹配项
+
+**此工具仅需要您的以太坊地址** - 无需输入私钥或恢复短语。只需创建一个包含您要验证的地址的文本文件。
+
+## 🎯 恢复方法
+
+### 1. 结构化私钥空间搜索 - 0x1
+- 系统测试以0x1开头的私钥
+- 覆盖范围：`0000000000000000000000000000000000000000000000000000000000000001 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF`
+- 优化的多线程处理以获得最大性能
+
+### 2. 可配置范围搜索 - 0xN
+- 可自定义的密钥空间验证起点
+- 定义您自己的范围（例如，`0000000000000000000000000000000000000000000000000000000001000000 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF`）
+- 专门针对特定密钥模式
+
+### 3. BIP39助记词验证
+- 测试12个词和24个词的助记词组合
+- 实现完整的BIP39/BIP44标准
+- 生成派生地址以进行全面验证
+
+### 4. 随机分布验证
+- 整个密钥空间的统计抽样
 - 高性能批处理
-
-### 2. 以太坊私钥碰撞器恢复 - 0xN
-- 专门用于恢复以0xN开头的私钥
-- 指定私钥的起点范围（例如，0000000000000000000000000000000000000000000000000000000000000000001000000 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF)
-- 多线程处理
-- 高性能批处理
-
-### 3. 以太坊助记词碰撞器恢复
-- 支持12位和24位随机生成
-- BIP39 BIP 44协议
-- 高性能批处理
-
-### 4. 以太坊私钥碰撞器恢复 - 随机
-- 随机私钥生成和测试
-- BIP39 BIP 44协议
-- 高性能批处理
+- 针对可能组合的最大覆盖率进行优化
 
 ## 🚀 快速开始
 
-### 安装说明
+### 安装
 
 1. 下载所需文件：
- - `Ethereum_Recovery_Tool_Ultimate_Edition_vX.X.exe`
- - `address.txt`
+   - `Ethereum_Recovery_Tool_Ultimate_Edition_vX.X.exe`
+   - 创建包含目标地址的`address.txt`文件
 
 ### 文件结构
+工作目录中所需的文件：
+- `Ethereum_Recovery_Tool_Ultimate_Edition_vX.X.exe`（主程序）
+- `address.txt`（目标以太坊地址，每行一个）
+- `complete.txt`（找到匹配项时自动生成）
+- `debug.log`（自动生成的性能日志）
+- `license.dat`（完整版激活文件）
 
-工作目录所需文件：
-- `Ethereum_Recovery_Tool_Ultimate_Edition_vX.X.exe` (主程序)
-- `address.txt` (待搜索地址列表)
-- `complete.txt` (成功输出文件 - 自动生成)
-- `debug.log` (日志文件 - 自动生成)
-- `license.dat` (激活数据文件)
-
-2. 运行`Ethereum_Recovery_Tool_Ultimate_Edition_vX.X.exe`，确保`address.txt`在同一目录下。
+2. 启动应用程序并确保`address.txt`位于同一目录中。
 ![image](https://github.com/user-attachments/assets/e5ccdba8-0872-4d4c-a67a-5cae89469978)
 
-3. `address.txt`示例内容（用于测试）：
-- **ETH地址：** 0x7E5F4552091A69125d5DfCb7b8C2659029395Bdf
-- **私钥：** 0000000000000000000000000000000000000000000000000000000000000001
-- **ETH地址：** 0x7f7F156a6c3FD9D3f2024DbD37F483608435Ad77
-- **私钥：** 0000000000000000000000000000000000000000000000000000000000010000
+3. 用于测试的示例`address.txt`：
+```
+0x7E5F4552091A69125d5DfCb7b8C2659029395Bdf
+0x7f7F156a6c3FD9D3f2024DbD37F483608435Ad77
+```
 ![image](https://github.com/user-attachments/assets/06c1508e-0d5f-448c-9d79-37b459a2508e)
 
-4. 检查"complete.txt"内容是否恢复成功（用于测试）：
+4. 成功的验证结果会出现在`complete.txt`中：
 ![image](https://github.com/user-attachments/assets/c5fdd202-6b24-4711-8851-3e6b76bbc29f)
 
-## 📁 以太坊数据库（7天内更新）
-- 总地址数：3亿+
-- 更新频率：每周
-- 格式：优化高速查找
-- 大小：压缩后约100GB，txt格式，兼容所有程序的"Address.txt"
+## 💻 技术实现
+
+### 验证过程
+- **密钥生成**：候选私钥的系统或随机创建
+- **地址派生**：从每个候选密钥生成标准以太坊地址
+- **优化匹配**：与目标地址列表进行高速比较
+- **多线程设计**：并行处理以最大化硬件利用率
+
+### 性能优化
+- 内存高效操作，支持长时间运行能力
+- 批处理以最小化计算开销
+- 检查点系统，可恢复中断的操作
+- 进度跟踪，带有估计完成统计
+
+## 📁 以太坊数据库（每周更新）
+- **大小**：3亿多个以太坊地址
+- **格式**：针对高速查找操作进行了优化
+- **更新频率**：每周更新新地址
+- **存储**：压缩后约100GB，与工具的地址格式兼容
 
 ## ⚠️ 版本信息
 
-| 版本 | 功能 | 限制 | 捐赠额 |
+| 版本 | 功能 | 限制 | 贡献 |
 |---------|----------|-------------|--------|
-| 试用版 | 基础功能 | 100万次尝试 | 免费 |
-| 完整版 | 无限尝试 | 无 | US$200 |
-| 以太坊数据库 | 3亿地址 | 无 | US$100 |
+| 试用版 | 基本验证 | 100万次尝试 | 免费 |
+| 完整版 | 无限验证 | 无 | US$200 |
+| 以太坊数据库 | 3亿+地址 | 无 | US$100 |
 
 ## 💎 激活流程
-1. 加入我们的 Telegram 群组 - 🇨🇳 Chinese Group | 中文群组: https://t.me/brute_force_cpu_chinese
-2. 捐款
-3. 将硬件 ID 复制给项目所有者 - https://t.me/Sheep8081
+1. 加入我们的Telegram社区：[中文群组](https://t.me/brute_force_cpu_chinese)
+2. 进行贡献付款
+3. 将您的硬件ID发送给项目维护者：[@Sheep8081](https://t.me/Sheep8081)
    ![image](https://github.com/user-attachments/assets/87b9075b-1bd9-48a3-993a-e1e0ebf1a0c1)
-5. 接收激活码并应用代码解锁完整版
+4. 接收激活码以解锁完整版功能
    ![image](https://github.com/user-attachments/assets/b0a364a8-7af8-4279-98b1-2f6d23e4b56a)
 
 ## 🔒 安全特性
-- 离线运行
-- 不存储密钥
-- 安全内存处理
-- 错误保护
+- **内存保护**：安全的内存处理，自动清除
+- **错误恢复**：防止系统崩溃的自动保护措施
 
 ## 💝 FAQ | 常见问题
-- Ensure the Chinese Edition is used by correctly setting the locale to Chinese (Simplified) in Windows OS. | 通过在 Windows 操作系统中将区域设置正确设置为中文（简体）来确保使用中文版本。
+- 确保通过在Windows操作系统中将区域设置正确设置为中文（简体）来使用中文版本。
  ![image](https://github.com/user-attachments/assets/0092561f-2741-49bd-9946-175f4e6d315c)
 
 ## 📖 Technical Overview & Recovery Process | 技术概述与恢复流程
@@ -239,66 +280,64 @@ Required files in working directory:
 
 ### How It Works
 
-This toolkit implements advanced cryptographic recovery methods for Ethereum wallets through:
+This toolkit implements advanced cryptographic verification methods for Ethereum wallets through:
 
-1. **Private Key Recovery Process:**
-   - Utilizes sophisticated algorithms to generate and test private keys
-   - Implements parallel processing for enhanced performance
-   - Employs memory-efficient batch operations
-   - Uses optimized address derivation techniques
+1. **Address Verification Process:**
+   - Utilizes deterministic algorithms to generate and test potential key combinations
+   - Implements parallel processing across multiple CPU cores
+   - Employs memory-efficient batch operations for sustained performance
+   - Uses optimized Ethereum address derivation techniques
 
 2. **Why Ethereum Focus:**
    - High value concentration in ETH addresses
    - Single-signature wallet prevalence
-   - Cost-effective recovery process
-   - Large potential recovery value
+   - Standardized derivation path implementation
+   - Compatible with major hardware and software wallets
 
-3. **Why Not TRX:**
-   - Widespread multi-signature implementation
-   - Low transaction fees encourage multi-sig adoption
-   - Most valuable wallets use multi-sig security
-   - Limited recovery value potential
-   - High implementation costs vs. potential returns
-
-4. **Technical Implementation:**
+3. **Technical Implementation:**
    - BIP39 protocol compliance
    - Keccak-256 hashing implementation
    - Secp256k1 curve operations
    - Efficient memory management
-   - Multi-threaded processing optimization
+   - Multi-threaded architecture for maximum performance
+
+4. **Security Measures:**
+   - Completely offline verification
+   - No external network connections
+   - Secure memory handling practices
+   - Automatic cleanup of sensitive data
 
 </td>
 <td width="50%">
 
 ### 工作原理
 
-本工具包通过以下方式实现以太坊钱包的高级加密恢复：
+本工具包通过以下方式实现以太坊钱包的高级加密验证：
 
-1. **私钥恢复流程：**
-   - 使用高级算法生成和测试私钥
-   - 实现并行处理以提升性能
-   - 采用内存效率优化的批处理操作
-   - 使用优化的地址推导技术
+1. **地址验证流程：**
+   - 使用确定性算法生成和测试潜在的密钥组合
+   - 在多个CPU核心上实现并行处理
+   - 采用内存效率高的批处理操作以保持性能
+   - 使用优化的以太坊地址派生技术
 
 2. **为什么专注于以太坊：**
    - 以太坊地址中高价值集中度
    - 单签名钱包普遍使用
-   - 恢复过程成本效益高
-   - 潜在恢复价值大
+   - 标准化的派生路径实现
+   - 与主要硬件和软件钱包兼容
 
-3. **为什么不支持波场（TRX）：**
-   - 多重签名实现广泛
-   - 低交易费用促使采用多重签名
-   - 大多数高价值钱包使用多重签名安全
-   - 有限的恢复价值潜力
-   - 实施成本高于潜在回报
-
-4. **技术实现：**
+3. **技术实现：**
    - 符合BIP39协议标准
    - Keccak-256哈希实现
    - Secp256k1曲线运算
    - 高效内存管理
-   - 多线程处理优化
+   - 多线程架构以实现最大性能
+
+4. **安全措施：**
+   - 完全离线验证
+   - 无外部网络连接
+   - 安全的内存处理实践
+   - 自动清理敏感数据
 
 </td>
 </tr>
@@ -310,38 +349,38 @@ This toolkit implements advanced cryptographic recovery methods for Ethereum wal
 
 ## 💝 Support Our Development
 
-If you find our tools helpful in your wallet recovery journey, please consider supporting our ongoing development! Your donation helps us:
+If you find our tool helpful, please consider supporting our ongoing development! Your contribution helps us:
 
 - 🚀 Develop new features
-- 🛠️ Maintain and improve existing tools
+- 🛠️ Maintain and improve existing functionality
 - 🎯 Enhance performance
-- 💡 Research new recovery methods
+- 💡 Research new verification methods
 - 🌐 Provide better support
 
-### Donation Addresses
+### Contribution Addresses
 - **ETH:** `0x7887b4f269cacdd9c78e474763b038e41b58473b`
 - **TRX:** `TDaxNCkfxSWygq1AXzHN6NQiFAnkByU3bC`
 
-*Every contribution, big or small, helps us make these tools better for everyone!*
+*Every contribution helps us make these tools better for everyone!*
 
 </td>
 <td width="50%">
 
 ## 💝 支持我们的开发
 
-如果我们的工具对您的钱包恢复有所帮助，请考虑支持我们的持续开发！您的捐赠将帮助我们：
+如果您发现我们的工具有所帮助，请考虑支持我们的持续开发！您的贡献将帮助我们：
 
 - 🚀 开发新功能
-- 🛠️ 维护和改进现有工具
+- 🛠️ 维护和改进现有功能
 - 🎯 提升性能
-- 💡 研究新的恢复方法
+- 💡 研究新的验证方法
 - 🌐 提供更好的支持
 
-### 捐赠地址
+### 贡献地址
 - **ETH:** `0x7887b4f269cacdd9c78e474763b038e41b58473b`
 - **TRX:** `TDaxNCkfxSWygq1AXzHN6NQiFAnkByU3bC`
 
-*每一笔捐赠，无论大小，都能帮助我们为所有用户打造更好的工具！*
+*每一笔贡献都能帮助我们为所有用户打造更好的工具！*
 
 </td>
 </tr>
@@ -357,12 +396,12 @@ If you find our tools helpful in your wallet recovery journey, please consider s
 <tr>
 <td width="50%">
 
-This software is provided for educational and research purposes only. Users assume all risks and responsibilities for usage.
+This software is provided for verification and recovery purposes only. Users are responsible for ensuring they have legitimate ownership of any addresses they attempt to verify. The tool makes no guarantees about recovery success as this depends on the specific scenario and available information.
 
 </td>
 <td width="50%">
 
-本软件仅供教育和研究目的使用。用户需承担所有使用风险和责任。
+本软件仅供验证和恢复目的使用。用户有责任确保他们对尝试验证的任何地址拥有合法所有权。该工具不对恢复成功提供任何保证，因为这取决于具体情况和可用信息。
 
 </td>
 </tr>
