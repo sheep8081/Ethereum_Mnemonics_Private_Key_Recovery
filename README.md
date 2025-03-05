@@ -59,22 +59,22 @@ This is a computational verification tool that tests large numbers of cryptograp
 
 ## 🎯 Recovery Methods
 
-### 1. Structured Private Key Space Search - 0x1
+### 1. Mnemonic Recovery
+- 12, 15, 18, 21, 24 words mnemonic combinations
+- Implements full BIP39/BIP44 standards
+- Generates derived addresses for comprehensive verification
+
+### 2. Sequential Recovery
 - Systematically tests private keys starting with 0x1
 - Coverage: `0000000000000000000000000000000000000000000000000000000000000001 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF`
 - Optimized multi-threaded processing for maximum performance
 
-### 2. Configurable Range Search - 0xN
+### 3. Custom Start Recovery
 - Customizable starting point for key space verification
 - Define your own range (e.g., `0000000000000000000000000000000000000000000000000000000001000000 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF`)
 - Specialized for specific key patterns
 
-### 3. BIP39 Mnemonic Verification
-- Tests 12-word and 24-word mnemonic combinations
-- Implements full BIP39/BIP44 standards
-- Generates derived addresses for comprehensive verification
-
-### 4. Random Distribution Verification
+### 4. Random Recovery
 - Statistical sampling across the entire key space
 - High-performance batch processing
 - Optimized for maximum coverage of probable combinations
@@ -105,20 +105,6 @@ Required files in working directory:
 ![5](https://github.com/user-attachments/assets/c2488e37-7e07-4efe-9d8d-9c8562368c78)
 ![image](https://github.com/user-attachments/assets/1d5393ae-b834-4931-8cd8-546396bec711)
 
-## 💻 Technical Implementation
-
-### Verification Process
-- **Key Generation**: Systematic or stochastic creation of candidate private keys
-- **Address Derivation**: Standard Ethereum address generation from each candidate key
-- **Optimized Matching**: High-speed comparison against target address list
-- **Multi-threaded Design**: Parallel processing for maximum hardware utilization
-
-### Performance Optimizations
-- Memory-efficient operations for extended runtime capability
-- Batch processing to minimize computational overhead
-- Checkpoint system for resuming interrupted operations
-- Progress tracking with estimated completion statistics
-
 ## 📁 Ethereum Database (Updated Weekly)
 - **Size**: 300+ million Ethereum addresses
 - **Format**: Optimized for high-speed lookup operations
@@ -140,25 +126,6 @@ Required files in working directory:
    ![AF](https://github.com/user-attachments/assets/97faa7af-2705-4b67-82a4-e86c47b3ea5f)
 5. Receive your activation code to unlock the full version capabilities
    ![A](https://github.com/user-attachments/assets/b0eb91b0-677f-48e4-aa89-7c5f1b941de9)
-
-
-## 🔒 Security Features
-- **Completely Offline**: Never connects to the internet during operation
-- **Local Processing**: All computations performed on your local machine
-- **No Data Transmission**: No information is sent outside your computer
-- **Memory Protection**: Secure memory handling with automatic clearing
-- **Error Recovery**: Automatic safeguards against system crashes
-
-## 📊 Performance Expectations
-
-The effectiveness of this tool depends on:
-
-1. **Hardware Resources**: More CPU cores and faster processors yield better performance
-2. **Search Space Size**: The specific ranges being verified affect completion time
-3. **Target Count**: Number of addresses being checked against
-4. **Memory Allocation**: Available RAM for batch processing operations
-
-The trial version allows evaluation of performance on your specific hardware before upgrading.
 
 ---
 
@@ -222,26 +189,6 @@ The trial version allows evaluation of performance on your specific hardware bef
 3. 成功的验证结果会出现在`complete.txt`中：
 ![image](https://github.com/user-attachments/assets/1d5393ae-b834-4931-8cd8-546396bec711)
 
-## 💻 技术实现
-
-### 验证过程
-- **密钥生成**：候选私钥的系统或随机创建
-- **地址派生**：从每个候选密钥生成标准以太坊地址
-- **优化匹配**：与目标地址列表进行高速比较
-- **多线程设计**：并行处理以最大化硬件利用率
-
-### 性能优化
-- 内存高效操作，支持长时间运行能力
-- 批处理以最小化计算开销
-- 检查点系统，可恢复中断的操作
-- 进度跟踪，带有估计完成统计
-
-## 📁 以太坊数据库（每周更新）
-- **大小**：3亿多个以太坊地址
-- **格式**：针对高速查找操作进行了优化
-- **更新频率**：每周更新新地址
-- **存储**：压缩后约100GB，与工具的地址格式兼容
-
 ## ⚠️ 版本信息
 
 | 版本 | 功能 | 限制 | 贡献 |
@@ -257,89 +204,6 @@ The trial version allows evaluation of performance on your specific hardware bef
    ![image](https://github.com/user-attachments/assets/b8ca7ede-6798-446e-9549-2b551397795e)
 5. 接收激活码以解锁完整版功能
    ![image](https://github.com/user-attachments/assets/70c33fb2-255b-49f7-af94-58e55f1e040f)
-
-## 🔒 安全特性
-- **内存保护**：安全的内存处理，自动清除
-- **错误恢复**：防止系统崩溃的自动保护措施
-
-## 💝 FAQ | 常见问题
-- 确保通过在Windows操作系统中将区域设置正确设置为中文（简体）来使用中文版本。
- ![image](https://github.com/user-attachments/assets/0092561f-2741-49bd-9946-175f4e6d315c)
-
-## 📖 Technical Overview & Recovery Process | 技术概述与恢复流程
-
-<table>
-<tr>
-<td width="50%">
-
-### How It Works
-
-This toolkit implements advanced cryptographic verification methods for Ethereum wallets through:
-
-1. **Address Verification Process:**
-   - Utilizes deterministic algorithms to generate and test potential key combinations
-   - Implements parallel processing across multiple CPU cores
-   - Employs memory-efficient batch operations for sustained performance
-   - Uses optimized Ethereum address derivation techniques
-
-2. **Why Ethereum Focus:**
-   - High value concentration in ETH addresses
-   - Single-signature wallet prevalence
-   - Standardized derivation path implementation
-   - Compatible with major hardware and software wallets
-
-3. **Technical Implementation:**
-   - BIP39 protocol compliance
-   - Keccak-256 hashing implementation
-   - Secp256k1 curve operations
-   - Efficient memory management
-   - Multi-threaded architecture for maximum performance
-
-4. **Security Measures:**
-   - Completely offline verification
-   - No external network connections
-   - Secure memory handling practices
-   - Automatic cleanup of sensitive data
-
-</td>
-<td width="50%">
-
-### 工作原理
-
-本工具包通过以下方式实现以太坊钱包的高级加密验证：
-
-1. **地址验证流程：**
-   - 使用确定性算法生成和测试潜在的密钥组合
-   - 在多个CPU核心上实现并行处理
-   - 采用内存效率高的批处理操作以保持性能
-   - 使用优化的以太坊地址派生技术
-
-2. **为什么专注于以太坊：**
-   - 以太坊地址中高价值集中度
-   - 单签名钱包普遍使用
-   - 标准化的派生路径实现
-   - 与主要硬件和软件钱包兼容
-
-3. **技术实现：**
-   - 符合BIP39协议标准
-   - Keccak-256哈希实现
-   - Secp256k1曲线运算
-   - 高效内存管理
-   - 多线程架构以实现最大性能
-
-4. **安全措施：**
-   - 完全离线验证
-   - 无外部网络连接
-   - 安全的内存处理实践
-   - 自动清理敏感数据
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="50%">
 
 ## 💝 Support Our Development
 
