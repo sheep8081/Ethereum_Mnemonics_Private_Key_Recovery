@@ -2,8 +2,8 @@
 
 <div align="center">
 
-[![Security Status](https://img.shields.io/badge/Security-Offline%20Operation-brightgreen)](https://github.com/sheep8081/Ethereum_Mnemonics_Private_Key_Recovery)
-[![Last Update](https://img.shields.io/badge/Last%20Update-March%202025-orange)](https://github.com/sheep8081/Ethereum_Mnemonics_Private_Key_Recovery/commits/main)
+[![Security Status](https://img.shields.io/badge/Security-Offline%20Operation-brightgreen)](https://github.com/sheep8081official1/Ethereum_Mnemonics_Private_Key_Recovery)
+[![Last Update](https://img.shields.io/badge/Last%20Update-March%202025-orange)](https://github.com/sheep8081official1/Ethereum_Mnemonics_Private_Key_Recovery/commits/main)
 
 🌏 [English](#english) | [中文](#chinese)
 
@@ -122,7 +122,7 @@ Required files in working directory:
 ## 💎 Activation Process
 1. Join our Telegram community: [International Group](https://t.me/brute_force_cpu)
 2. Make contribution payment
-3. Send your Hardware ID to the project maintainer: [@Sheep808](https://t.me/Sheep808)
+3. Send your Hardware ID to the project maintainer: [@sheep8081official](https://t.me/sheep8081official)
    ![AF](https://github.com/user-attachments/assets/97faa7af-2705-4b67-82a4-e86c47b3ea5f)
 5. Receive your activation code to unlock the full version capabilities
    ![A](https://github.com/user-attachments/assets/b0eb91b0-677f-48e4-aa89-7c5f1b941de9)
@@ -200,7 +200,7 @@ Required files in working directory:
 ## 💎 激活流程
 1. 加入我们的Telegram社区：[中文群组](https://t.me/brute_force_cpu_chinese)
 2. 进行贡献付款
-3. 将您的硬件ID发送给项目维护者：[@Sheep808](https://t.me/Sheep808)
+3. 将您的硬件ID发送给项目维护者：[@sheep8081official](https://t.me/sheep8081official)
    ![image](https://github.com/user-attachments/assets/b8ca7ede-6798-446e-9549-2b551397795e)
 5. 接收激活码以解锁完整版功能
    ![image](https://github.com/user-attachments/assets/70c33fb2-255b-49f7-af94-58e55f1e040f)
