@@ -184,9 +184,9 @@ Required files in working directory:
 ![1C](https://github.com/user-attachments/assets/10cc798e-ec21-40e3-8052-9c498f7cdc6e)
 ![2C](https://github.com/user-attachments/assets/bf67088c-1459-4afc-b0ae-2b53ae7c05fe)
 ![3C](https://github.com/user-attachments/assets/2fb0254f-d45a-4c8e-9381-a011f48e78f2)
-![Uploading 4C.png…]()
+![4C](https://github.com/user-attachments/assets/a2bf6444-707d-47c3-bafe-d44d66f23b9a)
 
-3. 成功的验证结果会出现在`complete.txt`中：
+4. 成功的验证结果会出现在`complete.txt`中：
 ![image](https://github.com/user-attachments/assets/1d5393ae-b834-4931-8cd8-546396bec711)
 
 ## ⚠️ 版本信息
