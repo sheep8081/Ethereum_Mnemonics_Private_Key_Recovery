@@ -254,9 +254,9 @@ The trial version allows evaluation of performance on your specific hardware bef
 1. 加入我们的Telegram社区：[中文群组](https://t.me/brute_force_cpu_chinese)
 2. 进行贡献付款
 3. 将您的硬件ID发送给项目维护者：[@Sheep8081](https://t.me/Sheep8081)
-   ![image](https://github.com/user-attachments/assets/87b9075b-1bd9-48a3-993a-e1e0ebf1a0c1)
-4. 接收激活码以解锁完整版功能
-   ![image](https://github.com/user-attachments/assets/b0a364a8-7af8-4279-98b1-2f6d23e4b56a)
+   ![image](https://github.com/user-attachments/assets/b8ca7ede-6798-446e-9549-2b551397795e)
+5. 接收激活码以解锁完整版功能
+   ![image](https://github.com/user-attachments/assets/70c33fb2-255b-49f7-af94-58e55f1e040f)
 
 ## 🔒 安全特性
 - **内存保护**：安全的内存处理，自动清除
