@@ -239,6 +239,7 @@ If you find our tool helpful, please consider supporting our ongoing development
 *每一笔贡献都能帮助我们为所有用户打造更好的工具！*
 
 </td>
+<td width="50%">
 </tr>
 </table>
 
