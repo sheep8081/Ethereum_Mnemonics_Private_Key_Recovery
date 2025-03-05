@@ -102,7 +102,8 @@ Required files in working directory:
 ![4](https://github.com/user-attachments/assets/131bf4e9-dfc2-434d-9ea3-000a0861ca6d)
 
 3. Successful verification results appear in `complete.txt`:
-![5](https://github.com/user-attachments/assets/d87a2a71-5047-4aff-baa1-3d5fd975ec30)
+![5](https://github.com/user-attachments/assets/c2488e37-7e07-4efe-9d8d-9c8562368c78)
+![image](https://github.com/user-attachments/assets/1d5393ae-b834-4931-8cd8-546396bec711)
 
 ## 💻 Technical Implementation
 
@@ -213,17 +214,11 @@ The trial version allows evaluation of performance on your specific hardware bef
 - `license.dat`（完整版激活文件）
 
 2. 启动应用程序并确保`address.txt`位于同一目录中。
-![image](https://github.com/user-attachments/assets/e5ccdba8-0872-4d4c-a67a-5cae89469978)
 
-3. 用于测试的示例`address.txt`：
-```
-0x7E5F4552091A69125d5DfCb7b8C2659029395Bdf
-0x7f7F156a6c3FD9D3f2024DbD37F483608435Ad77
-```
-![image](https://github.com/user-attachments/assets/06c1508e-0d5f-448c-9d79-37b459a2508e)
+3. 成功的验证结果会出现在`complete.txt`中：
 
-4. 成功的验证结果会出现在`complete.txt`中：
-![image](https://github.com/user-attachments/assets/c5fdd202-6b24-4711-8851-3e6b76bbc29f)
+![image](https://github.com/user-attachments/assets/1d5393ae-b834-4931-8cd8-546396bec711)
+
 
 ## 💻 技术实现
 
