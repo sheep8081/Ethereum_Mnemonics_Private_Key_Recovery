@@ -89,7 +89,7 @@ This is a computational verification tool that tests large numbers of cryptograp
 
 ### File Architecture
 Required files in working directory:
-- `Ethereum_Recovery_Tool_Ultimate_Edition_vX.X.exe` (Main program)
+- `Ethereum_Recovery_Tool_Ultimate_Edition_GUI_vX.X.exe` (Main program)
 - `address.txt` (Target Ethereum addresses, one per line)
 - `complete.txt` (Auto-generated when matches are found)
 - `debug.log` (Auto-generated performance logging)
@@ -177,22 +177,22 @@ The trial version allows evaluation of performance on your specific hardware bef
 
 ## 🎯 恢复方法
 
-### 1. 结构化私钥空间搜索 - 0x1
+### 1. 助记词恢复
+- 12/15/18/21/24个词的助记词组合
+- 实现完整的BIP39/BIP44标准
+- 生成派生地址以进行全面验证
+
+### 2. 顺序私钥恢复
 - 系统测试以0x1开头的私钥
 - 覆盖范围：`0000000000000000000000000000000000000000000000000000000000000001 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF`
 - 优化的多线程处理以获得最大性能
 
-### 2. 可配置范围搜索 - 0xN
+### 3. 自定义起始私钥恢复
 - 可自定义的密钥空间验证起点
 - 定义您自己的范围（例如，`0000000000000000000000000000000000000000000000000000000001000000 - 0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF`）
 - 专门针对特定密钥模式
 
-### 3. BIP39助记词验证
-- 测试12个词和24个词的助记词组合
-- 实现完整的BIP39/BIP44标准
-- 生成派生地址以进行全面验证
-
-### 4. 随机分布验证
+### 4. 随机私钥恢复
 - 整个密钥空间的统计抽样
 - 高性能批处理
 - 针对可能组合的最大覆盖率进行优化
@@ -202,23 +202,25 @@ The trial version allows evaluation of performance on your specific hardware bef
 ### 安装
 
 1. 下载所需文件：
-   - `Ethereum_Recovery_Tool_Ultimate_Edition_vX.X.exe`
+   - `Ethereum_Recovery_Tool_Ultimate_Edition_GUI_vX.X.exe`
    - 创建包含目标地址的`address.txt`文件
 
 ### 文件结构
 工作目录中所需的文件：
-- `Ethereum_Recovery_Tool_Ultimate_Edition_vX.X.exe`（主程序）
+- `Ethereum_Recovery_Tool_Ultimate_Edition_GUI_vX.X.exe`（主程序）
 - `address.txt`（目标以太坊地址，每行一个）
 - `complete.txt`（找到匹配项时自动生成）
 - `debug.log`（自动生成的性能日志）
 - `license.dat`（完整版激活文件）
 
 2. 启动应用程序并确保`address.txt`位于同一目录中。
+![1C](https://github.com/user-attachments/assets/10cc798e-ec21-40e3-8052-9c498f7cdc6e)
+![2C](https://github.com/user-attachments/assets/bf67088c-1459-4afc-b0ae-2b53ae7c05fe)
+![3C](https://github.com/user-attachments/assets/2fb0254f-d45a-4c8e-9381-a011f48e78f2)
+![Uploading 4C.png…]()
 
 3. 成功的验证结果会出现在`complete.txt`中：
-
 ![image](https://github.com/user-attachments/assets/1d5393ae-b834-4931-8cd8-546396bec711)
-
 
 ## 💻 技术实现
 
