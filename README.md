@@ -203,6 +203,10 @@ Required files in working directory:
 3. 接收激活码以解锁完整版功能
    ![image](https://github.com/user-attachments/assets/70c33fb2-255b-49f7-af94-58e55f1e040f)
 
+<table>
+<tr>
+<td width="50%">
+
 ## 💝 Support Our Development
 
 If you find our tool helpful, please consider supporting our ongoing development! Your contribution helps us:
@@ -239,7 +243,6 @@ If you find our tool helpful, please consider supporting our ongoing development
 *每一笔贡献都能帮助我们为所有用户打造更好的工具！*
 
 </td>
-<td width="50%">
 </tr>
 </table>
 
