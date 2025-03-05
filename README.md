@@ -84,7 +84,7 @@ This is a computational verification tool that tests large numbers of cryptograp
 ### Installation
 
 1. Download the required files:
-   - `Ethereum_Recovery_Tool_Ultimate_Edition_vX.X.exe`
+   - `Ethereum_Recovery_Tool_Ultimate_Edition_GUI_vX.X.exe`
    - Create an `address.txt` file with your target addresses
 
 ### File Architecture
@@ -96,17 +96,13 @@ Required files in working directory:
 - `license.dat` (Full version activation file)
 
 2. Launch the application and ensure `address.txt` is in the same directory.
-![image](https://github.com/user-attachments/assets/e629280a-6537-425a-a6a7-dc920cb58db7)
+![1](https://github.com/user-attachments/assets/84db48a1-0551-4751-9422-e659946b5b32)
+![2](https://github.com/user-attachments/assets/86bca944-f74b-487b-872a-b0c9f622b91e)
+![3](https://github.com/user-attachments/assets/db6ebbd8-da85-4deb-bfa8-8475d547be5e)
+![4](https://github.com/user-attachments/assets/131bf4e9-dfc2-434d-9ea3-000a0861ca6d)
 
-3. Sample `address.txt` for testing:
-```
-0x7E5F4552091A69125d5DfCb7b8C2659029395Bdf
-0x7f7F156a6c3FD9D3f2024DbD37F483608435Ad77
-```
-![image](https://github.com/user-attachments/assets/edca54eb-ed88-4004-b3bf-27da39708346)
-
-4. Successful verification results appear in `complete.txt`:
-![image](https://github.com/user-attachments/assets/2c11a4fb-02b1-45af-b4f9-25c48e6bedac)
+3. Successful verification results appear in `complete.txt`:
+![5](https://github.com/user-attachments/assets/d87a2a71-5047-4aff-baa1-3d5fd975ec30)
 
 ## 💻 Technical Implementation
 
@@ -140,9 +136,10 @@ Required files in working directory:
 1. Join our Telegram community: [International Group](https://t.me/brute_force_cpu)
 2. Make contribution payment
 3. Send your Hardware ID to the project maintainer: [@Sheep8081](https://t.me/Sheep8081)
-   ![image](https://github.com/user-attachments/assets/2b0a0a75-a161-4460-893a-428046de089f)
-4. Receive your activation code to unlock the full version capabilities
-   ![image](https://github.com/user-attachments/assets/4fb55cfb-e5fa-4fde-84e6-6c434fa5fc91)
+   ![AF](https://github.com/user-attachments/assets/97faa7af-2705-4b67-82a4-e86c47b3ea5f)
+5. Receive your activation code to unlock the full version capabilities
+   ![A](https://github.com/user-attachments/assets/b0eb91b0-677f-48e4-aa89-7c5f1b941de9)
+
 
 ## 🔒 Security Features
 - **Completely Offline**: Never connects to the internet during operation
