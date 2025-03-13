@@ -1,4 +1,4 @@
-## Ethereum Mnemonics Private Key Brute-force Recovery | 以太坊助记词碰撞器工具 | 以太坊私钥碰撞器恢复工具
+## Ethereum Mnemonics Private Key Brute-force Recovery | 私钥碰撞器 | 助记词碰撞器
 
 <div align="center">
 
