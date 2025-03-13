@@ -9,40 +9,6 @@
 
 </div>
 
-<table>
-<tr>
-<td width="50%">
-
-## What is this tool?
-A high-performance toolkit that systematically tests cryptographic combinations to recover access to Ethereum wallets. Simply add your target addresses to a text file, and the tool will verify millions of possibilities offline using advanced multi-threaded processing.
-
-### Key Features:
-- 🔑 Systematic key space verification
-- 📝 Advanced mnemonic phrase testing
-- 🚄 High-performance multi-threaded processing
-- 🔒 100% offline operation - no network connectivity
-- 💻 Simple text file input - just add your addresses
-
-Perfect for researchers, developers, and users who need to verify or recover access to their Ethereum wallets.
-
-</td>
-<td width="50%">
-
-## 这是什么工具？
-这是一款高性能工具包，通过系统测试加密组合来恢复以太坊钱包的访问权限。只需将目标地址添加到文本文件中，该工具就会使用先进的多线程处理离线验证数百万种可能性。
-
-### 主要特点：
-- 🔑 系统密钥空间验证
-- 📝 高级助记词测试
-- 🚄 高性能多线程处理
-- 🔒 完全离线运行 - 无网络连接
-- 💻 简单文本文件输入 - 仅添加您的地址
-
-适合研究人员、开发者以及需要验证或恢复以太坊钱包访问权限的用户。
-
-</td>
-</tr>
-</table>
 
 <h2 id="english">Ethereum Address Verification & Recovery Tool</h2>
 
