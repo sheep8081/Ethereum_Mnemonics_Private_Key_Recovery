@@ -115,7 +115,7 @@ Required files in working directory:
 
 | Version | Features | Limitations | Contribution |
 |---------|----------|-------------|--------|
-| Trial(No memory optimized) | Basic verification | 1M attempts | Free |
+| Trial | Basic verification | 1M attempts | Free |
 | Full | Unlimited verification | None | US$200 |
 | Ethereum Database | 300M+ addresses | None | US$100 |
 
@@ -192,7 +192,7 @@ Required files in working directory:
 
 | 版本 | 功能 | 限制 | 贡献 |
 |---------|----------|-------------|--------|
-| 试用版(无内存优化) | 基本验证 | 100万次尝试 | 免费 |
+| 试用版 | 基本验证 | 100万次尝试 | 免费 |
 | 完整版 | 无限验证 | 无 | US$200 |
 | 以太坊数据库 | 3亿+地址 | 无 | US$100 |
 
