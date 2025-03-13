@@ -71,19 +71,12 @@ Required files in working directory:
 ![5](https://github.com/user-attachments/assets/c2488e37-7e07-4efe-9d8d-9c8562368c78)
 ![image](https://github.com/user-attachments/assets/1d5393ae-b834-4931-8cd8-546396bec711)
 
-## 📁 Ethereum Database (Updated Weekly)
-- **Size**: 300+ million Ethereum addresses
-- **Format**: Optimized for high-speed lookup operations
-- **Update Frequency**: Weekly with new addresses
-- **Storage**: ~100GB compressed, compatible with the tool's address format
-
 ## ⚠️ Version Information
 
 | Version | Features | Limitations | Contribution |
 |---------|----------|-------------|--------|
 | Trial | Basic verification | 1M attempts | Free |
 | Full | Unlimited verification | None | US$200 |
-| Ethereum Database | 300M+ addresses | None | US$100 |
 
 ## 💎 Activation Process
 1. Make contribution payment
@@ -160,7 +153,6 @@ Required files in working directory:
 |---------|----------|-------------|--------|
 | 试用版 | 基本验证 | 100万次尝试 | 免费 |
 | 完整版 | 无限验证 | 无 | US$200 |
-| 以太坊数据库 | 3亿+地址 | 无 | US$100 |
 
 ## 💎 激活流程
 1. 进行贡献付款
