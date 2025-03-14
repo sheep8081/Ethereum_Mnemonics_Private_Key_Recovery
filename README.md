@@ -1,4 +1,4 @@
-## Ethereum Mnemonics Private Key Recovery Tools | 私钥碰撞器 | 助记词碰撞器
+## Ethereum Mnemonics Private Key Recovery Tools 私钥碰撞器 助记词碰撞器
 
 <div align="center">
 
