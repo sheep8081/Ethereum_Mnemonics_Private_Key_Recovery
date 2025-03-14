@@ -181,7 +181,7 @@ If you find our tool helpful, please consider supporting our ongoing development
 
 *Every contribution helps us make these tools better for everyone!*
 
-Telegram: https://t.me/sheep8081official
+**Telegram:** https://t.me/sheep8081official
 
 </td>
 <td width="50%">
@@ -200,8 +200,9 @@ Telegram: https://t.me/sheep8081official
 - **ETH:** `0x7887b4f269cacdd9c78e474763b038e41b58473b`
 - **TRX:** `TDaxNCkfxSWygq1AXzHN6NQiFAnkByU3bC`
 
-Telegram: https://t.me/sheep8081official
 *每一笔贡献都能帮助我们为所有用户打造更好的工具！*
+
+**Telegram:** https://t.me/sheep8081official
 
 </td>
 </tr>
