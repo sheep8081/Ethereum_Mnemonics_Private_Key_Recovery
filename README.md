@@ -76,7 +76,7 @@ Required files in working directory:
 | Version | Features | Limitations | Contribution |
 |---------|----------|-------------|--------|
 | Trial | Basic verification | 1M attempts | Free |
-| Full | Unlimited verification | None | US$200 |
+| Full | Unlimited verification | None | US$120 |
 
 ## 💎 Activation Process
 1. Make contribution payment
@@ -152,7 +152,7 @@ Required files in working directory:
 | 版本 | 功能 | 限制 | 贡献 |
 |---------|----------|-------------|--------|
 | 试用版 | 基本验证 | 100万次尝试 | 免费 |
-| 完整版 | 无限验证 | 无 | US$200 |
+| 完整版 | 无限验证 | 无 | US$120 |
 
 ## 💎 激活流程
 1. 进行贡献付款
